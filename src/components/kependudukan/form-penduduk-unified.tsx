@@ -1260,113 +1260,169 @@ export function FormPendudukUnified({
       {/* Menu: Keluarga (Perkawinan + Keluarga) */}
       {activeMenu === 'keluarga' && (
         <>
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 mb-2">
             <Users className="w-5 h-5 text-emerald-600" />
             <h2 className="text-lg font-semibold text-gray-900">Data Keluarga</h2>
           </div>
 
-          {/* Status Perkawinan */}
-          <div className="grid grid-cols-4 gap-2 mb-3">
-            <div className="space-y-1">
-              <Label className="text-xs">Status Perkawinan</Label>
-              <Select value={formData.statusPerkawinan} onValueChange={(v) => handleInputChange('statusPerkawinan', v)}>
-                <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
-                <SelectContent>{statusPerkawinanOptions.map(s => (<SelectItem key={s} value={s}>{statusPerkawinanLabels[s]}</SelectItem>))}</SelectContent>
-              </Select>
-            </div>
-            {(formData.statusPerkawinan === 'KAWIN_TERCATAT' || formData.statusPerkawinan === 'CERAI_MATI') && (
-              <>
-                <div className="space-y-1">
-                  <Label className="text-xs">No. Akta Nikah</Label>
-                  <Input value={formData.aktaPerkawinan} onChange={(e) => handleInputChange('aktaPerkawinan', e.target.value)} placeholder="Akta nikah" className="h-9" />
-                </div>
-                <div className="space-y-1">
-                  <Label className="text-xs">Tgl Nikah</Label>
-                  <Input type="date" value={formData.tanggalPerkawinan} onChange={(e) => handleInputChange('tanggalPerkawinan', e.target.value)} className="h-9" />
-                </div>
-              </>
-            )}
-            {(formData.statusPerkawinan === 'CERAI_HIDUP_TERCATAT' || formData.statusPerkawinan === 'CERAI_HIDUP_TIDAK_TERCATAT') && (
-              <>
-                <div className="space-y-1">
-                  <Label className="text-xs">No. Akta Cerai</Label>
-                  <Input value={formData.aktaPerceraian} onChange={(e) => handleInputChange('aktaPerceraian', e.target.value)} placeholder="Akta cerai" className="h-9" />
-                </div>
-                <div className="space-y-1">
-                  <Label className="text-xs">Tgl Cerai</Label>
-                  <Input type="date" value={formData.tanggalPerceraian} onChange={(e) => handleInputChange('tanggalPerceraian', e.target.value)} className="h-9" />
-                </div>
-              </>
-            )}
-          </div>
-
-          {/* KK Info */}
-          {mode === 'anggota-kk' && kkInfo && (
-            <Card className="border-emerald-200 bg-emerald-50 mb-3"><CardContent className="p-3"><div className="grid grid-cols-4 gap-2 text-xs">
-              <div><span className="text-gray-500">No. KK:</span> <span className="font-mono ml-1">{kkInfo.nomorKK}</span></div>
-              <div><span className="text-gray-500">Kepala KK:</span> <span className="ml-1">{kkInfo.kepalaKeluarga}</span></div>
-              <div><span className="text-gray-500">Alamat:</span> <span className="ml-1">{kkInfo.alamat}</span></div>
-              <div><span className="text-gray-500">Wilayah:</span> <span className="ml-1">{kkInfo.dusun} RT {kkInfo.rt}</span></div>
-            </div></CardContent></Card>
-          )}
-
-          {mode === 'penduduk-baru' && kkStatus === 'belum-punya' && (
-            <div className="p-2 bg-emerald-50 rounded-lg border border-emerald-200 mb-3 text-sm"><BadgeCheck className="w-4 h-4 text-emerald-600 inline mr-2" /><span className="text-emerald-800">Kepala Keluarga (KK Baru)</span></div>
-          )}
-
-          {mode === 'penduduk-baru' && selectedKK && (
-            <Card className="border-emerald-200 bg-emerald-50 mb-3"><CardContent className="p-3"><div className="grid grid-cols-2 gap-2 text-xs">
-              <div><span className="text-gray-500">No. KK:</span> <span className="font-mono ml-1">{selectedKK.nomorKK}</span></div>
-              <div><span className="text-gray-500">Kepala KK:</span> <span className="ml-1">{selectedKK.kepalaKeluarga}</span></div>
-            </div></CardContent></Card>
-          )}
-
-          {mode === 'edit' && kkOptions.length > 0 && (
-            <div className="space-y-1 mb-3">
-              <Label className="text-xs">Kartu Keluarga</Label>
-              <Select value={formData.kkId} onValueChange={(v) => handleInputChange('kkId', v)}>
-                <SelectTrigger className="h-9"><SelectValue placeholder="Pilih KK" /></SelectTrigger>
-                <SelectContent>{kkOptions.map(kk => (<SelectItem key={kk.id} value={kk.id}>{kk.nomorKK} - {kk.kepalaKeluarga}</SelectItem>))}</SelectContent>
-              </Select>
-            </div>
-          )}
-
-          {/* Hubungan Keluarga */}
-          <div className="grid grid-cols-3 gap-2 mb-3">
-            <div className="space-y-1">
-              <Label className="text-xs">Hubungan dalam KK {(mode === 'anggota-kk' || mode === 'penduduk-baru') && <span className="text-red-500">*</span>}</Label>
-              <Select value={formData.hubunganKeluarga} onValueChange={(v) => handleInputChange('hubunganKeluarga', v)} disabled={mode === 'penduduk-baru' && kkStatus === 'belum-punya'}>
-                <SelectTrigger className={cn('h-9', errors.hubunganKeluarga && 'border-red-500')}><SelectValue placeholder="Pilih" /></SelectTrigger>
-                <SelectContent>{getHubunganKeluargaOptions().map(h => (<SelectItem key={h} value={h}>{h}</SelectItem>))}</SelectContent>
-              </Select>
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">Anak Ke-</Label>
-              <Input type="number" min="1" value={formData.anakKe} onChange={(e) => handleInputChange('anakKe', e.target.value)} placeholder="1" className="h-9" />
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">Jumlah Saudara</Label>
-              <Input type="number" min="0" value={formData.jumlahSaudara} onChange={(e) => handleInputChange('jumlahSaudara', e.target.value)} placeholder="0" className="h-9" />
+          {/* Section: Status Perkawinan */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <Heart className="w-4 h-4 text-emerald-600" />
+              Status Perkawinan
+            </h4>
+            <div className="grid grid-cols-3 gap-4">
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">Status Perkawinan</Label>
+                <Select value={formData.statusPerkawinan} onValueChange={(v) => handleInputChange('statusPerkawinan', v)}>
+                  <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
+                  <SelectContent>{statusPerkawinanOptions.map(s => (<SelectItem key={s} value={s}>{statusPerkawinanLabels[s]}</SelectItem>))}</SelectContent>
+                </Select>
+              </div>
+              {(formData.statusPerkawinan === 'KAWIN_TERCATAT' || formData.statusPerkawinan === 'CERAI_MATI') && (
+                <>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">No. Akta Nikah</Label>
+                    <Input value={formData.aktaPerkawinan} onChange={(e) => handleInputChange('aktaPerkawinan', e.target.value)} placeholder="Akta nikah" className="h-9" />
+                  </div>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">Tanggal Nikah</Label>
+                    <Input type="date" value={formData.tanggalPerkawinan} onChange={(e) => handleInputChange('tanggalPerkawinan', e.target.value)} className="h-9" />
+                  </div>
+                </>
+              )}
+              {(formData.statusPerkawinan === 'CERAI_HIDUP_TERCATAT' || formData.statusPerkawinan === 'CERAI_HIDUP_TIDAK_TERCATAT') && (
+                <>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">No. Akta Cerai</Label>
+                    <Input value={formData.aktaPerceraian} onChange={(e) => handleInputChange('aktaPerceraian', e.target.value)} placeholder="Akta cerai" className="h-9" />
+                  </div>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">Tanggal Cerai</Label>
+                    <Input type="date" value={formData.tanggalPerceraian} onChange={(e) => handleInputChange('tanggalPerceraian', e.target.value)} className="h-9" />
+                  </div>
+                </>
+              )}
             </div>
           </div>
 
-          {/* Data Orang Tua */}
-          <div className="grid grid-cols-4 gap-2">
-            <div className="space-y-1">
-              <Label className="text-xs">Nama Ayah</Label>
-              <Input value={formData.namaAyah} onChange={(e) => handleInputChange('namaAyah', e.target.value)} placeholder="Nama ayah" className="h-9" />
+          {/* Section: Kartu Keluarga */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <Home className="w-4 h-4 text-emerald-600" />
+              Kartu Keluarga
+            </h4>
+
+            {/* KK Info untuk mode anggota-kk */}
+            {mode === 'anggota-kk' && kkInfo && (
+              <div className="bg-emerald-50 rounded-lg p-3 border border-emerald-200 mb-4">
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-500">No. KK:</span>
+                    <span className="font-mono font-medium text-gray-900">{kkInfo.nomorKK}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-500">Kepala KK:</span>
+                    <span className="font-medium text-gray-900">{kkInfo.kepalaKeluarga}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-500">Alamat:</span>
+                    <span className="text-gray-900">{kkInfo.alamat}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-500">Wilayah:</span>
+                    <span className="text-gray-900">{kkInfo.dusun} RT {kkInfo.rt}</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Badge Kepala Keluarga untuk KK Baru */}
+            {mode === 'penduduk-baru' && kkStatus === 'belum-punya' && (
+              <div className="bg-emerald-50 rounded-lg p-3 border border-emerald-200 mb-4 flex items-center gap-2">
+                <BadgeCheck className="w-5 h-5 text-emerald-600" />
+                <span className="text-sm text-emerald-800 font-medium">Kepala Keluarga (KK Baru)</span>
+              </div>
+            )}
+
+            {/* Selected KK untuk mode penduduk-baru */}
+            {mode === 'penduduk-baru' && selectedKK && (
+              <div className="bg-emerald-50 rounded-lg p-3 border border-emerald-200 mb-4">
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-500">No. KK:</span>
+                    <span className="font-mono font-medium text-gray-900">{selectedKK.nomorKK}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-500">Kepala KK:</span>
+                    <span className="font-medium text-gray-900">{selectedKK.kepalaKeluarga}</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Pilihan KK untuk mode edit */}
+            {mode === 'edit' && kkOptions.length > 0 && (
+              <div className="space-y-1 mb-4">
+                <Label className="text-xs text-gray-600">Pilih Kartu Keluarga</Label>
+                <Select value={formData.kkId} onValueChange={(v) => handleInputChange('kkId', v)}>
+                  <SelectTrigger className="h-9"><SelectValue placeholder="Pilih KK" /></SelectTrigger>
+                  <SelectContent>{kkOptions.map(kk => (<SelectItem key={kk.id} value={kk.id}>{kk.nomorKK} - {kk.kepalaKeluarga}</SelectItem>))}</SelectContent>
+                </Select>
+              </div>
+            )}
+
+            {/* Hubungan dalam Keluarga */}
+            <div className="grid grid-cols-3 gap-4">
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">Hubungan dalam KK {(mode === 'anggota-kk' || mode === 'penduduk-baru') && <span className="text-red-500">*</span>}</Label>
+                <Select value={formData.hubunganKeluarga} onValueChange={(v) => handleInputChange('hubunganKeluarga', v)} disabled={mode === 'penduduk-baru' && kkStatus === 'belum-punya'}>
+                  <SelectTrigger className={cn('h-9', errors.hubunganKeluarga && 'border-red-500')}><SelectValue placeholder="Pilih" /></SelectTrigger>
+                  <SelectContent>{getHubunganKeluargaOptions().map(h => (<SelectItem key={h} value={h}>{h}</SelectItem>))}</SelectContent>
+                </Select>
+              </div>
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">Anak Ke-</Label>
+                <Input type="number" min="1" value={formData.anakKe} onChange={(e) => handleInputChange('anakKe', e.target.value)} placeholder="1" className="h-9" />
+              </div>
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">Jumlah Saudara</Label>
+                <Input type="number" min="0" value={formData.jumlahSaudara} onChange={(e) => handleInputChange('jumlahSaudara', e.target.value)} placeholder="0" className="h-9" />
+              </div>
             </div>
-            <div className="space-y-1">
-              <Label className="text-xs">NIK Ayah</Label>
-              <Input value={formData.nikAyah} onChange={(e) => handleInputChange('nikAyah', e.target.value.replace(/\D/g, '').slice(0, 16))} placeholder="NIK ayah" className="h-9 font-mono text-sm" />
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">Nama Ibu</Label>
-              <Input value={formData.namaIbu} onChange={(e) => handleInputChange('namaIbu', e.target.value)} placeholder="Nama ibu" className="h-9" />
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">NIK Ibu</Label>
-              <Input value={formData.nikIbu} onChange={(e) => handleInputChange('nikIbu', e.target.value.replace(/\D/g, '').slice(0, 16))} placeholder="NIK ibu" className="h-9 font-mono text-sm" />
+          </div>
+
+          {/* Section: Data Orang Tua */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <Users className="w-4 h-4 text-emerald-600" />
+              Data Orang Tua
+            </h4>
+            <div className="grid grid-cols-2 gap-4">
+              {/* Data Ayah */}
+              <div className="space-y-3">
+                <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">Data Ayah</p>
+                <div className="space-y-1">
+                  <Label className="text-xs text-gray-600">Nama Ayah</Label>
+                  <Input value={formData.namaAyah} onChange={(e) => handleInputChange('namaAyah', e.target.value)} placeholder="Nama ayah" className="h-9" />
+                </div>
+                <div className="space-y-1">
+                  <Label className="text-xs text-gray-600">NIK Ayah</Label>
+                  <Input value={formData.nikAyah} onChange={(e) => handleInputChange('nikAyah', e.target.value.replace(/\D/g, '').slice(0, 16))} placeholder="NIK ayah" className="h-9 font-mono text-sm" />
+                </div>
+              </div>
+              {/* Data Ibu */}
+              <div className="space-y-3">
+                <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">Data Ibu</p>
+                <div className="space-y-1">
+                  <Label className="text-xs text-gray-600">Nama Ibu</Label>
+                  <Input value={formData.namaIbu} onChange={(e) => handleInputChange('namaIbu', e.target.value)} placeholder="Nama ibu" className="h-9" />
+                </div>
+                <div className="space-y-1">
+                  <Label className="text-xs text-gray-600">NIK Ibu</Label>
+                  <Input value={formData.nikIbu} onChange={(e) => handleInputChange('nikIbu', e.target.value.replace(/\D/g, '').slice(0, 16))} placeholder="NIK ibu" className="h-9 font-mono text-sm" />
+                </div>
+              </div>
             </div>
           </div>
         </>

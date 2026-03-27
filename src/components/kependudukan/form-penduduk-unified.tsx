@@ -1460,81 +1460,124 @@ export function FormPendudukUnified({
       {/* Menu: Dokumen */}
       {activeMenu === 'dokumen' && (
         <>
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 mb-2">
             <FileText className="w-5 h-5 text-emerald-600" />
             <h2 className="text-lg font-semibold text-gray-900">Dokumen</h2>
           </div>
-          <div className="grid grid-cols-4 gap-2">
-            <div className="space-y-1">
-              <Label className="text-xs">No. Akta Kelahiran</Label>
-              <Input value={formData.noAktaKelahiran} onChange={(e) => handleInputChange('noAktaKelahiran', e.target.value)} placeholder="Akta lahir" className="h-9" />
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">Status KTP</Label>
-              <Select value={formData.statusKTP} onValueChange={(v) => handleInputChange('statusKTP', v)}>
-                <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
-                <SelectContent>{statusKTPoptions.map(s => (<SelectItem key={s} value={s}>{s.replace('_', ' ')}</SelectItem>))}</SelectContent>
-              </Select>
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">BPJS Kesehatan</Label>
-              <Input value={formData.noBPJSKesehatan} onChange={(e) => handleInputChange('noBPJSKesehatan', e.target.value)} placeholder="No. BPJS" className="h-9" />
-            </div>
-            <div className="space-y-1">
-              <Label className="text-xs">BPJS TK</Label>
-              <Input value={formData.noBPJSTenagakerja} onChange={(e) => handleInputChange('noBPJSTenagakerja', e.target.value)} placeholder="No. BPJS TK" className="h-9" />
+
+          {/* Section: Dokumen Identitas */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <FileText className="w-4 h-4 text-emerald-600" />
+              Dokumen Identitas
+            </h4>
+            <div className="grid grid-cols-3 gap-4">
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">No. Akta Kelahiran</Label>
+                <Input value={formData.noAktaKelahiran} onChange={(e) => handleInputChange('noAktaKelahiran', e.target.value)} placeholder="Nomor akta lahir" className="h-9" />
+              </div>
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">Status KTP</Label>
+                <Select value={formData.statusKTP} onValueChange={(v) => handleInputChange('statusKTP', v)}>
+                  <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
+                  <SelectContent>{statusKTPoptions.map(s => (<SelectItem key={s} value={s}>{s.replace(/_/g, ' ')}</SelectItem>))}</SelectContent>
+                </Select>
+              </div>
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">NPWP</Label>
+                <Input value={formData.npwp} onChange={(e) => handleInputChange('npwp', e.target.value)} placeholder="Nomor NPWP" className="h-9" />
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-2">
-            <div className="space-y-1">
-              <Label className="text-xs">NPWP</Label>
-              <Input value={formData.npwp} onChange={(e) => handleInputChange('npwp', e.target.value)} placeholder="NPWP" className="h-9" />
+
+          {/* Section: Asuransi & Jaminan */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <Heart className="w-4 h-4 text-emerald-600" />
+              Asuransi & Jaminan
+            </h4>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">No. BPJS Kesehatan</Label>
+                <Input value={formData.noBPJSKesehatan} onChange={(e) => handleInputChange('noBPJSKesehatan', e.target.value)} placeholder="Nomor BPJS Kesehatan" className="h-9" />
+              </div>
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">No. BPJS Tenagakerja</Label>
+                <Input value={formData.noBPJSTenagakerja} onChange={(e) => handleInputChange('noBPJSTenagakerja', e.target.value)} placeholder="Nomor BPJS TK" className="h-9" />
+              </div>
             </div>
-            <div className="space-y-1">
-              <Label className="text-xs">Kewarganegaraan</Label>
-              <Select value={formData.kewarganegaraan} onValueChange={(v) => handleInputChange('kewarganegaraan', v)}>
-                <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
-                <SelectContent><SelectItem value="WNI">WNI</SelectItem><SelectItem value="WNA">WNA</SelectItem></SelectContent>
-              </Select>
+          </div>
+
+          {/* Section: Kewarganegaraan */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <BadgeCheck className="w-4 h-4 text-emerald-600" />
+              Kewarganegaraan
+            </h4>
+            <div className="grid grid-cols-3 gap-4">
+              <div className="space-y-1">
+                <Label className="text-xs text-gray-600">Kewarganegaraan</Label>
+                <Select value={formData.kewarganegaraan} onValueChange={(v) => handleInputChange('kewarganegaraan', v)}>
+                  <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
+                  <SelectContent><SelectItem value="WNI">WNI (Warga Negara Indonesia)</SelectItem><SelectItem value="WNA">WNA (Warga Negara Asing)</SelectItem></SelectContent>
+                </Select>
+              </div>
+              {formData.kewarganegaraan === 'WNA' && (
+                <>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">Negara Asal <span className="text-red-500">*</span></Label>
+                    <Input value={formData.negaraAsal} onChange={(e) => handleInputChange('negaraAsal', e.target.value)} placeholder="Negara asal" className="h-9" />
+                  </div>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">No. Paspor</Label>
+                    <Input value={formData.noPaspor} onChange={(e) => handleInputChange('noPaspor', e.target.value)} placeholder="Nomor paspor" className="h-9" />
+                  </div>
+                </>
+              )}
             </div>
             {formData.kewarganegaraan === 'WNA' && (
-              <>
+              <div className="grid grid-cols-3 gap-4 mt-3">
                 <div className="space-y-1">
-                  <Label className="text-xs">Negara Asal <span className="text-red-500">*</span></Label>
-                  <Input value={formData.negaraAsal} onChange={(e) => handleInputChange('negaraAsal', e.target.value)} placeholder="Negara" className="h-9" />
+                  <Label className="text-xs text-gray-600">No. KITAS/KITAP</Label>
+                  <Input value={formData.noKitasKitap} onChange={(e) => handleInputChange('noKitasKitap', e.target.value)} placeholder="Nomor KITAS/KITAP" className="h-9" />
                 </div>
                 <div className="space-y-1">
-                  <Label className="text-xs">No. Paspor</Label>
-                  <Input value={formData.noPaspor} onChange={(e) => handleInputChange('noPaspor', e.target.value)} placeholder="Paspor" className="h-9" />
+                  <Label className="text-xs text-gray-600">Tanggal Masuk Indonesia</Label>
+                  <Input type="date" value={formData.tanggalMasuk} onChange={(e) => handleInputChange('tanggalMasuk', e.target.value)} className="h-9" />
                 </div>
-              </>
+              </div>
             )}
           </div>
-          {formData.kewarganegaraan === 'WNA' && (
-            <div className="grid grid-cols-4 gap-2">
-              <div className="space-y-1">
-                <Label className="text-xs">No. KITAS/KITAP</Label>
-                <Input value={formData.noKitasKitap} onChange={(e) => handleInputChange('noKitasKitap', e.target.value)} placeholder="KITAS" className="h-9" />
-              </div>
-              <div className="space-y-1">
-                <Label className="text-xs">Tgl Masuk Indonesia</Label>
-                <Input type="date" value={formData.tanggalMasuk} onChange={(e) => handleInputChange('tanggalMasuk', e.target.value)} className="h-9" />
+
+          {/* Section: Unggah Dokumen */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <Upload className="w-4 h-4 text-emerald-600" />
+              Unggah Dokumen
+            </h4>
+            <div className="grid grid-cols-2 gap-4">
+              {/* Upload KTP */}
+              <div className="space-y-2">
+                <Label className="text-xs text-gray-600">Scan/Foto KTP</Label>
+                <input ref={fotoKTPInputRef} type="file" accept="image/*" onChange={(e) => handleFileUpload(e, 'fotoKTP')} className="hidden" />
+                {formData.fotoKTP ? (
+                  <div className="relative inline-block">
+                    <img src={formData.fotoKTP} alt="Foto KTP" className="h-32 object-cover rounded-lg border-2 border-gray-200 shadow-sm" />
+                    <button type="button" onClick={() => setFormData(prev => ({ ...prev, fotoKTP: '' }))} className="absolute -top-2 -right-2 p-1 bg-red-500 text-white rounded-full hover:bg-red-600 shadow-md">
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                ) : (
+                  <div onClick={() => fotoKTPInputRef.current?.click()} className="h-32 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center gap-2 cursor-pointer hover:border-emerald-500 hover:bg-emerald-50 transition-all">
+                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                      <Upload className="w-5 h-5 text-gray-400" />
+                    </div>
+                    <span className="text-sm text-gray-500">Upload foto KTP</span>
+                    <span className="text-xs text-gray-400">Klik untuk memilih file</span>
+                  </div>
+                )}
               </div>
             </div>
-          )}
-          <div className="mt-3">
-            <Label className="text-xs">Scan/Foto KTP</Label>
-            <input ref={fotoKTPInputRef} type="file" accept="image/*" onChange={(e) => handleFileUpload(e, 'fotoKTP')} className="hidden" />
-            {formData.fotoKTP ? (
-              <div className="relative inline-block mt-1">
-                <img src={formData.fotoKTP} alt="Foto KTP" className="h-24 object-cover rounded-lg border" />
-                <button type="button" onClick={() => setFormData(prev => ({ ...prev, fotoKTP: '' }))} className="absolute -top-1 -right-1 p-0.5 bg-red-500 text-white rounded-full hover:bg-red-600"><X className="w-3 h-3" /></button>
-              </div>
-            ) : (
-              <div onClick={() => fotoKTPInputRef.current?.click()} className="mt-1 h-16 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center gap-2 cursor-pointer hover:border-emerald-500 hover:bg-emerald-50">
-                <Upload className="w-4 h-4 text-gray-400" /><span className="text-sm text-gray-500">Upload foto KTP</span>
-              </div>
-            )}
           </div>
         </>
       )}

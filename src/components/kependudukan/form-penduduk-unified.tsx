@@ -1067,11 +1067,11 @@ export function FormPendudukUnified({
 
   // ==================== RENDER FORM CONTENT ====================
   const renderFormContent = () => (
-    <div className="space-y-3">
+    <div className="space-y-4">
       {/* Menu: Data Pribadi (Identitas + Kontak) */}
       {activeMenu === 'pribadi' && (
         <>
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center gap-2 mb-2">
             <User className="w-5 h-5 text-emerald-600" />
             <h2 className="text-lg font-semibold text-gray-900">Data Pribadi</h2>
           </div>
@@ -1123,89 +1123,95 @@ export function FormPendudukUnified({
             </motion.div>
           )}
 
-          {/* Layout 2 Kolom: Foto Kiri - Form Kanan */}
-          <div className="flex gap-6">
-            {/* Kolom Kiri: Foto Penduduk */}
-            <div className="flex flex-col items-center">
-              <input ref={fotoInputRef} type="file" accept="image/*" onChange={(e) => handleFileUpload(e, 'foto')} className="hidden" />
-              {formData.foto ? (
-                <div className="relative group">
-                  <img src={formData.foto} alt="Foto" className="w-36 h-[216px] object-cover rounded-lg border-2 border-gray-200 shadow-sm" />
-                  <button type="button" onClick={() => setFormData(prev => ({ ...prev, foto: '' }))} className="absolute -top-2 -right-2 p-1.5 bg-red-500 text-white rounded-full hover:bg-red-600 shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
-                    <X className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-              ) : (
-                <div onClick={() => fotoInputRef.current?.click()} className="w-36 h-[216px] border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center cursor-pointer hover:border-emerald-500 hover:bg-emerald-50 transition-all">
-                  <div className="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center mb-2">
-                    <User className="w-7 h-7 text-gray-400" />
+          {/* Section: Identitas Dasar */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-4 flex items-center gap-2">
+              <User className="w-4 h-4 text-emerald-600" />
+              Identitas Dasar
+            </h4>
+
+            {/* Layout 2 Kolom: Foto Kiri - Form Kanan */}
+            <div className="flex gap-6">
+              {/* Kolom Kiri: Foto Penduduk */}
+              <div className="flex flex-col items-center flex-shrink-0">
+                <input ref={fotoInputRef} type="file" accept="image/*" onChange={(e) => handleFileUpload(e, 'foto')} className="hidden" />
+                {formData.foto ? (
+                  <div className="relative group">
+                    <img src={formData.foto} alt="Foto" className="w-32 h-40 object-cover rounded-lg border-2 border-gray-200 shadow-sm" />
+                    <button type="button" onClick={() => setFormData(prev => ({ ...prev, foto: '' }))} className="absolute -top-2 -right-2 p-1.5 bg-red-500 text-white rounded-full hover:bg-red-600 shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
+                      <X className="w-3.5 h-3.5" />
+                    </button>
                   </div>
-                  <Upload className="w-5 h-5 text-gray-400" />
-                  <span className="text-xs text-gray-500 mt-1">Upload Foto</span>
-
-                </div>
-              )}
-            </div>
-
-            {/* Kolom Kanan: Form Identitas */}
-            <div className="flex-1 space-y-3">
-              {/* Baris 1: Nama Lengkap */}
-              <div className="space-y-1">
-                <Label htmlFor="namaLengkap" className="text-xs text-gray-600">Nama Lengkap <span className="text-red-500">*</span></Label>
-                <Input id="namaLengkap" value={formData.namaLengkap} onChange={(e) => handleInputChange('namaLengkap', e.target.value)} placeholder="Nama lengkap sesuai KTP" className={cn('h-9', errors.namaLengkap && 'border-red-500')} />
+                ) : (
+                  <div onClick={() => fotoInputRef.current?.click()} className="w-32 h-40 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center cursor-pointer hover:border-emerald-500 hover:bg-emerald-50 transition-all">
+                    <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-2">
+                      <User className="w-6 h-6 text-gray-400" />
+                    </div>
+                    <Upload className="w-4 h-4 text-gray-400" />
+                    <span className="text-xs text-gray-500 mt-1">Upload Foto</span>
+                  </div>
+                )}
               </div>
 
-              {/* Baris 2: NIK, Tempat Lahir, Tanggal Lahir */}
-              <div className="grid grid-cols-12 gap-2">
-                <div className="col-span-5 space-y-1">
-                  <Label htmlFor="nik" className="text-xs text-gray-600">NIK <span className="text-red-500">*</span></Label>
-                  <Input id="nik" value={formData.nik} onChange={(e) => handleInputChange('nik', e.target.value.replace(/\D/g, '').slice(0, 16))} placeholder="16 digit NIK" className={cn('h-9 font-mono text-sm', errors.nik && 'border-red-500')} />
+              {/* Kolom Kanan: Form Identitas */}
+              <div className="flex-1 space-y-3">
+                {/* Baris 1: Nama Lengkap */}
+                <div className="space-y-1">
+                  <Label htmlFor="namaLengkap" className="text-xs text-gray-600">Nama Lengkap <span className="text-red-500">*</span></Label>
+                  <Input id="namaLengkap" value={formData.namaLengkap} onChange={(e) => handleInputChange('namaLengkap', e.target.value)} placeholder="Nama lengkap sesuai KTP" className={cn('h-9', errors.namaLengkap && 'border-red-500')} />
                 </div>
-                <div className="col-span-4 space-y-1">
-                  <Label htmlFor="tempatLahir" className="text-xs text-gray-600">Tempat Lahir</Label>
-                  <Input id="tempatLahir" value={formData.tempatLahir} onChange={(e) => handleInputChange('tempatLahir', e.target.value)} placeholder="Jakarta" className="h-9" />
+
+                {/* Baris 2: NIK, Tempat Lahir, Tanggal Lahir */}
+                <div className="grid grid-cols-3 gap-3">
+                  <div className="space-y-1">
+                    <Label htmlFor="nik" className="text-xs text-gray-600">NIK <span className="text-red-500">*</span></Label>
+                    <Input id="nik" value={formData.nik} onChange={(e) => handleInputChange('nik', e.target.value.replace(/\D/g, '').slice(0, 16))} placeholder="16 digit NIK" className={cn('h-9 font-mono text-sm', errors.nik && 'border-red-500')} />
+                  </div>
+                  <div className="space-y-1">
+                    <Label htmlFor="tempatLahir" className="text-xs text-gray-600">Tempat Lahir</Label>
+                    <Input id="tempatLahir" value={formData.tempatLahir} onChange={(e) => handleInputChange('tempatLahir', e.target.value)} placeholder="Jakarta" className="h-9" />
+                  </div>
+                  <div className="space-y-1">
+                    <Label htmlFor="tanggalLahir" className="text-xs text-gray-600">Tgl Lahir</Label>
+                    <Input id="tanggalLahir" type="date" value={formData.tanggalLahir} onChange={(e) => handleInputChange('tanggalLahir', e.target.value)} className="h-9" />
+                  </div>
                 </div>
-                <div className="col-span-3 space-y-1">
-                  <Label htmlFor="tanggalLahir" className="text-xs text-gray-600">Tgl Lahir</Label>
-                  <Input id="tanggalLahir" type="date" value={formData.tanggalLahir} onChange={(e) => handleInputChange('tanggalLahir', e.target.value)} className="h-9" />
+
+                {/* Baris 3: Jenis Kelamin, Gol Darah, Agama, Suku */}
+                <div className="grid grid-cols-4 gap-3">
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">Jenis Kelamin <span className="text-red-500">*</span></Label>
+                    <Select value={formData.jenisKelamin} onValueChange={(v) => handleInputChange('jenisKelamin', v)}>
+                      <SelectTrigger className={cn('h-9', errors.jenisKelamin && 'border-red-500')}><SelectValue placeholder="Pilih" /></SelectTrigger>
+                      <SelectContent><SelectItem value="LAKI_LAKI">Laki-laki</SelectItem><SelectItem value="PEREMPUAN">Perempuan</SelectItem></SelectContent>
+                    </Select>
+                  </div>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">Gol. Darah</Label>
+                    <Select value={formData.golonganDarah} onValueChange={(v) => handleInputChange('golonganDarah', v)}>
+                      <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
+                      <SelectContent>{golonganDarahOptions.map(gd => (<SelectItem key={gd} value={gd}>{golonganDarahLabels[gd]}</SelectItem>))}</SelectContent>
+                    </Select>
+                  </div>
+                  <div className="space-y-1">
+                    <Label className="text-xs text-gray-600">Agama</Label>
+                    <Select value={formData.agama} onValueChange={(v) => handleInputChange('agama', v)}>
+                      <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
+                      <SelectContent>{agamaOptions.map(a => (<SelectItem key={a} value={a}>{a.charAt(0) + a.slice(1).toLowerCase().replace('_', ' ')}</SelectItem>))}</SelectContent>
+                    </Select>
+                  </div>
+                  <div className="space-y-1">
+                    <Label htmlFor="suku" className="text-xs text-gray-600">Suku/Etnis</Label>
+                    <Input id="suku" value={formData.suku} onChange={(e) => handleInputChange('suku', e.target.value)} placeholder="Sunda" className="h-9" />
+                  </div>
                 </div>
               </div>
-
-              {/* Baris 3: Jenis Kelamin, Gol Darah, Agama, Suku */}
-              <div className="grid grid-cols-12 gap-2">
-                <div className="col-span-4 space-y-1">
-                  <Label className="text-xs text-gray-600">Jenis Kelamin <span className="text-red-500">*</span></Label>
-                  <Select value={formData.jenisKelamin} onValueChange={(v) => handleInputChange('jenisKelamin', v)}>
-                    <SelectTrigger className={cn('h-9', errors.jenisKelamin && 'border-red-500')}><SelectValue placeholder="Pilih" /></SelectTrigger>
-                    <SelectContent><SelectItem value="LAKI_LAKI">Laki-laki</SelectItem><SelectItem value="PEREMPUAN">Perempuan</SelectItem></SelectContent>
-                  </Select>
-                </div>
-                <div className="col-span-2 space-y-1">
-                  <Label className="text-xs text-gray-600">Gol. Darah</Label>
-                  <Select value={formData.golonganDarah} onValueChange={(v) => handleInputChange('golonganDarah', v)}>
-                    <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
-                    <SelectContent>{golonganDarahOptions.map(gd => (<SelectItem key={gd} value={gd}>{golonganDarahLabels[gd]}</SelectItem>))}</SelectContent>
-                  </Select>
-                </div>
-                <div className="col-span-3 space-y-1">
-                  <Label className="text-xs text-gray-600">Agama</Label>
-                  <Select value={formData.agama} onValueChange={(v) => handleInputChange('agama', v)}>
-                    <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
-                    <SelectContent>{agamaOptions.map(a => (<SelectItem key={a} value={a}>{a.charAt(0) + a.slice(1).toLowerCase().replace('_', ' ')}</SelectItem>))}</SelectContent>
-                  </Select>
-                </div>
-                <div className="col-span-3 space-y-1">
-                  <Label htmlFor="suku" className="text-xs text-gray-600">Suku/Etnis</Label>
-                  <Input id="suku" value={formData.suku} onChange={(e) => handleInputChange('suku', e.target.value)} placeholder="Sunda" className="h-9" />
-                </div>
-              </div>
-
             </div>
           </div>
 
-          {/* Kontak Section */}
-          <div className="border-t border-gray-200 pt-4 mt-4">
-            <h4 className="text-sm font-medium text-gray-700 mb-3 flex items-center gap-2">
+          {/* Section: Kontak */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
               <Phone className="w-4 h-4 text-emerald-600" />
               Kontak
             </h4>
@@ -1221,25 +1227,25 @@ export function FormPendudukUnified({
             </div>
           </div>
 
-          {/* Pekerjaan & Pendidikan Section */}
-          <div className="border-t border-gray-200 pt-4 mt-4">
-            <h4 className="text-sm font-medium text-gray-700 mb-3 flex items-center gap-2">
+          {/* Section: Pekerjaan & Pendidikan */}
+          <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
               <Briefcase className="w-4 h-4 text-emerald-600" />
               Pekerjaan & Pendidikan
             </h4>
-            <div className="grid grid-cols-12 gap-2">
-              <div className="col-span-4 space-y-1">
+            <div className="grid grid-cols-3 gap-4">
+              <div className="space-y-1">
                 <Label className="text-xs text-gray-600">Pekerjaan</Label>
                 <Input value={formData.pekerjaan} onChange={(e) => handleInputChange('pekerjaan', e.target.value)} placeholder="Masukkan pekerjaan" className="h-9" />
               </div>
-              <div className="col-span-4 space-y-1">
+              <div className="space-y-1">
                 <Label className="text-xs text-gray-600">Pendidikan Terakhir</Label>
                 <Select value={formData.pendidikan} onValueChange={(v) => handleInputChange('pendidikan', v)}>
                   <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
                   <SelectContent>{pendidikanOptions.map(p => (<SelectItem key={p} value={p}>{p}</SelectItem>))}</SelectContent>
                 </Select>
               </div>
-              <div className="col-span-4 space-y-1">
+              <div className="space-y-1">
                 <Label className="text-xs text-gray-600">Penghasilan per Bulan</Label>
                 <Select value={formData.penghasilan} onValueChange={(v) => handleInputChange('penghasilan', v)}>
                   <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>

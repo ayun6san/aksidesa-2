@@ -193,7 +193,7 @@ const initialFormData: PendudukFormData = {
   tempatLahir: '',
   tanggalLahir: '',
   jenisKelamin: 'LAKI_LAKI',
-  golonganDarah: '',
+  golonganDarah: 'TIDAK_TAHU',
   agama: 'ISLAM',
   suku: '',
   statusPerkawinan: 'BELUM_KAWIN',
@@ -242,7 +242,14 @@ const menuItems = [
   { id: 'dokumen', label: 'Dokumen', icon: FileText },
 ];
 
-const golonganDarahOptions = ['', 'A', 'B', 'AB', 'O'];
+const golonganDarahOptions = ['TIDAK_TAHU', 'A', 'B', 'AB', 'O'];
+const golonganDarahLabels: Record<string, string> = {
+  'TIDAK_TAHU': 'Tidak Tahu',
+  'A': 'A',
+  'B': 'B',
+  'AB': 'AB',
+  'O': 'O',
+};
 const agamaOptions = ['ISLAM', 'KRISTEN', 'KATOLIK', 'HINDU', 'BUDDHA', 'KONGHUCU', 'LAINNYA'];
 const statusPerkawinanOptions = [
   'BELUM_KAWIN',
@@ -1176,8 +1183,8 @@ export function FormPendudukUnified({
                 <div className="col-span-2 space-y-1">
                   <Label className="text-xs text-gray-600">Gol. Darah</Label>
                   <Select value={formData.golonganDarah} onValueChange={(v) => handleInputChange('golonganDarah', v)}>
-                    <SelectTrigger className="h-9"><SelectValue placeholder="-" /></SelectTrigger>
-                    <SelectContent>{golonganDarahOptions.map(gd => (<SelectItem key={gd || 'none'} value={gd || '-'}>{gd || '-'}</SelectItem>))}</SelectContent>
+                    <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
+                    <SelectContent>{golonganDarahOptions.map(gd => (<SelectItem key={gd} value={gd}>{golonganDarahLabels[gd]}</SelectItem>))}</SelectContent>
                   </Select>
                 </div>
                 <div className="col-span-3 space-y-1">

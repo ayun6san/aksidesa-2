@@ -534,7 +534,7 @@ export function DataKK() {
       
       const fullPendudukData = result.data;
       
-      const kepalaKeluarga = kkDetail.anggota?.find((a: any) => a.hubunganKeluarga === 'Kepala Keluarga');
+      const kepalaKeluarga = kkDetail.anggota?.find((a: any) => a.hubunganKeluarga === 'KEPALA_KELUARGA');
       setKkInfoForForm({
         id: kkDetail.id,
         nomorKK: kkDetail.nomorKK,

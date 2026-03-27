@@ -23,7 +23,7 @@ export async function GET(request: NextRequest) {
         { 
           anggota: {
             some: {
-              hubunganKeluarga: 'Kepala Keluarga',
+              hubunganKeluarga: 'KEPALA_KELUARGA',
               namaLengkap: { contains: search }
             }
           }
@@ -54,7 +54,7 @@ export async function GET(request: NextRequest) {
         where,
         include: {
           anggota: {
-            where: { hubunganKeluarga: 'Kepala Keluarga' },
+            where: { hubunganKeluarga: 'KEPALA_KELUARGA' },
             select: {
               id: true,
               namaLengkap: true,

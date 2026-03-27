@@ -263,6 +263,24 @@ const statusPerkawinanLabels: Record<string, string> = {
 const statusKTPoptions = ['BELUM_BUAT', 'SUDAH_BUAT', 'HILANG', 'DALAM_PROSES'];
 const statusPendudukOptions = ['TETAP', 'PENDATANG', 'PINDAH', 'MENINGGAL'];
 const disabilitasOptions = ['TIDAK_ADA', 'FISIK', 'NETRA', 'RUNGU', 'WICARA', 'MENTAL', 'INTELEKTUAL', 'LAINNYA'];
+// Hubungan Keluarga: Label -> Enum mapping
+const hubunganKeluargaToEnum: Record<string, string> = {
+  'Kepala Keluarga': 'KEPALA_KELUARGA',
+  'Istri': 'ISTRI',
+  'Anak': 'ANAK',
+  'Menantu': 'MENANTU',
+  'Cucu': 'CUCU',
+  'Orang Tua': 'ORANG_TUA',
+  'Mertua': 'MERTUA',
+  'Famili Lain': 'FAMILI_LAIN',
+  'Pembantu': 'PEMBANTU',
+  'Lainnya': 'LAINNYA',
+};
+
+const enumToHubunganKeluarga: Record<string, string> = Object.fromEntries(
+  Object.entries(hubunganKeluargaToEnum).map(([k, v]) => [v, k])
+);
+
 const hubunganKeluargaOptions = [
   'Kepala Keluarga', 'Istri', 'Anak', 'Menantu', 'Cucu',
   'Orang Tua', 'Mertua', 'Famili Lain', 'Pembantu', 'Lainnya'
@@ -322,9 +340,12 @@ export function FormPendudukUnified({
     if (editingPenduduk) {
       // Sanitize null values to empty strings for form inputs
       const sanitized = sanitizeFormData(editingPenduduk);
+      // Convert hubunganKeluarga from enum to label
+      const hubunganLabel = enumToHubunganKeluarga[sanitized.hubunganKeluarga || ''] || sanitized.hubunganKeluarga || '';
       return {
         ...initialFormData,
         ...sanitized,
+        hubunganKeluarga: hubunganLabel,
         tanggalLahir: sanitized.tanggalLahir?.split('T')[0] || '',
         tanggalPerkawinan: sanitized.tanggalPerkawinan?.split('T')[0] || '',
         tanggalPerceraian: sanitized.tanggalPerceraian?.split('T')[0] || '',
@@ -730,7 +751,14 @@ export function FormPendudukUnified({
     setSubmitting(true);
     try {
       const kkBaru = (mode === 'penduduk-baru' && kkStatus === 'belum-punya') ? newKKData : null;
-      await onSubmit(formData, kkBaru);
+      
+      // Convert hubunganKeluarga from label to enum before submitting
+      const submitData = {
+        ...formData,
+        hubunganKeluarga: hubunganKeluargaToEnum[formData.hubunganKeluarga] || formData.hubunganKeluarga,
+      };
+      
+      await onSubmit(submitData, kkBaru);
       // Reset confirmation state after successful submit
       resetConfirmation();
     } catch (error) {

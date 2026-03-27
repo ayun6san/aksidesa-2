@@ -426,7 +426,7 @@ export async function POST(request: NextRequest) {
             where: { id: pendudukId },
             data: {
               kkId: newKK.id,
-              hubunganKeluarga: 'Kepala Keluarga',
+              hubunganKeluarga: 'KEPALA_KELUARGA',
             }
           });
 

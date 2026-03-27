@@ -645,7 +645,7 @@ export function PeristiwaKependudukan() {
           statusPerkawinan: statusPerceraian,
           tanggalPerceraian: perceraianForm.tanggalPerceraian,
           aktaPerceraian: perceraianForm.aktaPerceraian,
-          hubunganKeluarga: 'Kepala Keluarga',
+          hubunganKeluarga: 'KEPALA_KELUARGA',
           ...(newKKId ? { kkId: newKKId } : {}),
         }),
       });

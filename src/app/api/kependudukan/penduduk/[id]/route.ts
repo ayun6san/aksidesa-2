@@ -27,7 +27,7 @@ export async function GET(
             },
             dusun: true,
             anggota: {
-              where: { hubunganKeluarga: 'Kepala Keluarga' },
+              where: { hubunganKeluarga: 'KEPALA_KELUARGA' },
               select: { namaLengkap: true }
             }
           }

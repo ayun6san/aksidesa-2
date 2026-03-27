@@ -1,0 +1,4211 @@
+[watchdog-service] Installing dependencies...
+bun install v1.3.10 (30e609e0)
+No packages! Deleted empty lockfile
+
+[8.00ms] done
+[watchdog-service] Running bun run dev...
+$ bun --hot index.js
+[2026-03-27T14:09:37.095Z] Watchdog service running on port 3001
+[2026-03-27T14:09:37.097Z] Starting Next.js server...
+[2026-03-27T14:09:37.101Z] Next.js PID: 6027
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:38.238Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:40.237Z] Starting Next.js server...
+[2026-03-27T14:09:40.239Z] Next.js PID: 6084
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:41.231Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:43.230Z] Starting Next.js server...
+[2026-03-27T14:09:43.232Z] Next.js PID: 6124
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:44.230Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:46.230Z] Starting Next.js server...
+[2026-03-27T14:09:46.231Z] Next.js PID: 6163
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:47.231Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:49.230Z] Starting Next.js server...
+[2026-03-27T14:09:49.232Z] Next.js PID: 6203
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:50.250Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:52.249Z] Starting Next.js server...
+[2026-03-27T14:09:52.251Z] Next.js PID: 6242
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:53.265Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:55.264Z] Starting Next.js server...
+[2026-03-27T14:09:55.266Z] Next.js PID: 6282
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:56.309Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:09:58.308Z] Starting Next.js server...
+[2026-03-27T14:09:58.310Z] Next.js PID: 6321
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:09:59.338Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:01.337Z] Starting Next.js server...
+[2026-03-27T14:10:01.339Z] Next.js PID: 6360
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:02.371Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:04.371Z] Starting Next.js server...
+[2026-03-27T14:10:04.372Z] Next.js PID: 6407
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:05.423Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:07.423Z] Starting Next.js server...
+[2026-03-27T14:10:07.424Z] Next.js PID: 6446
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:08.453Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:10.453Z] Starting Next.js server...
+[2026-03-27T14:10:10.454Z] Next.js PID: 6485
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:11.486Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:13.485Z] Starting Next.js server...
+[2026-03-27T14:10:13.487Z] Next.js PID: 6524
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:14.510Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:16.510Z] Starting Next.js server...
+[2026-03-27T14:10:16.511Z] Next.js PID: 6563
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:17.548Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:19.548Z] Starting Next.js server...
+[2026-03-27T14:10:19.549Z] Next.js PID: 6602
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:20.559Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:22.558Z] Starting Next.js server...
+[2026-03-27T14:10:22.559Z] Next.js PID: 6641
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:23.579Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:25.579Z] Starting Next.js server...
+[2026-03-27T14:10:25.580Z] Next.js PID: 6680
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:26.619Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:28.620Z] Starting Next.js server...
+[2026-03-27T14:10:28.621Z] Next.js PID: 6728
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:29.661Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:31.661Z] Starting Next.js server...
+[2026-03-27T14:10:31.662Z] Next.js PID: 6768
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:32.678Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:34.678Z] Starting Next.js server...
+[2026-03-27T14:10:34.679Z] Next.js PID: 6807
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:35.702Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:37.702Z] Starting Next.js server...
+[2026-03-27T14:10:37.703Z] Next.js PID: 6846
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:38.735Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:40.735Z] Starting Next.js server...
+[2026-03-27T14:10:40.736Z] Next.js PID: 6885
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:41.765Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:43.764Z] Starting Next.js server...
+[2026-03-27T14:10:43.765Z] Next.js PID: 6924
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:44.823Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:46.823Z] Starting Next.js server...
+[2026-03-27T14:10:46.824Z] Next.js PID: 6963
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:47.868Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:49.868Z] Starting Next.js server...
+[2026-03-27T14:10:49.869Z] Next.js PID: 7003
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:50.895Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:52.895Z] Starting Next.js server...
+[2026-03-27T14:10:52.896Z] Next.js PID: 7042
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:53.928Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:55.928Z] Starting Next.js server...
+[2026-03-27T14:10:55.929Z] Next.js PID: 7081
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:10:57.003Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:10:59.003Z] Starting Next.js server...
+[2026-03-27T14:10:59.004Z] Next.js PID: 7126
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:00.078Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:02.077Z] Starting Next.js server...
+[2026-03-27T14:11:02.078Z] Next.js PID: 7165
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:03.093Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:05.093Z] Starting Next.js server...
+[2026-03-27T14:11:05.094Z] Next.js PID: 7205
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:06.110Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:08.110Z] Starting Next.js server...
+[2026-03-27T14:11:08.111Z] Next.js PID: 7244
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:09.146Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:11.146Z] Starting Next.js server...
+[2026-03-27T14:11:11.147Z] Next.js PID: 7283
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:12.183Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:14.183Z] Starting Next.js server...
+[2026-03-27T14:11:14.184Z] Next.js PID: 7322
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:15.236Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:17.236Z] Starting Next.js server...
+[2026-03-27T14:11:17.238Z] Next.js PID: 7364
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:18.292Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:20.292Z] Starting Next.js server...
+[2026-03-27T14:11:20.293Z] Next.js PID: 7403
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:21.322Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:23.322Z] Starting Next.js server...
+[2026-03-27T14:11:23.323Z] Next.js PID: 7442
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:24.333Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:26.333Z] Starting Next.js server...
+[2026-03-27T14:11:26.334Z] Next.js PID: 7481
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:27.387Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:29.387Z] Starting Next.js server...
+[2026-03-27T14:11:29.388Z] Next.js PID: 7520
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:30.427Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:32.427Z] Starting Next.js server...
+[2026-03-27T14:11:32.428Z] Next.js PID: 7559
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:33.443Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:35.443Z] Starting Next.js server...
+[2026-03-27T14:11:35.444Z] Next.js PID: 7600
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:36.466Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:38.466Z] Starting Next.js server...
+[2026-03-27T14:11:38.468Z] Next.js PID: 7639
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:39.521Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:41.521Z] Starting Next.js server...
+[2026-03-27T14:11:41.522Z] Next.js PID: 7678
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:42.543Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:44.543Z] Starting Next.js server...
+[2026-03-27T14:11:44.544Z] Next.js PID: 7717
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:45.550Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:47.550Z] Starting Next.js server...
+[2026-03-27T14:11:47.551Z] Next.js PID: 7756
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:48.592Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:50.592Z] Starting Next.js server...
+[2026-03-27T14:11:50.593Z] Next.js PID: 7795
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:51.651Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:53.651Z] Starting Next.js server...
+[2026-03-27T14:11:53.652Z] Next.js PID: 7834
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:54.727Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:56.727Z] Starting Next.js server...
+[2026-03-27T14:11:56.728Z] Next.js PID: 7873
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:11:57.776Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:11:59.776Z] Starting Next.js server...
+[2026-03-27T14:11:59.777Z] Next.js PID: 7913
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:00.787Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:02.787Z] Starting Next.js server...
+[2026-03-27T14:12:02.788Z] Next.js PID: 7952
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:03.818Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:05.818Z] Starting Next.js server...
+[2026-03-27T14:12:05.819Z] Next.js PID: 7991
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:06.823Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:08.824Z] Starting Next.js server...
+[2026-03-27T14:12:08.826Z] Next.js PID: 8030
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:09.855Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:11.855Z] Starting Next.js server...
+[2026-03-27T14:12:11.856Z] Next.js PID: 8072
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:12.922Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:14.922Z] Starting Next.js server...
+[2026-03-27T14:12:14.923Z] Next.js PID: 8111
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:15.998Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:17.997Z] Starting Next.js server...
+[2026-03-27T14:12:17.998Z] Next.js PID: 8167
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:19.026Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:21.025Z] Starting Next.js server...
+[2026-03-27T14:12:21.026Z] Next.js PID: 8206
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:22.071Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:24.070Z] Starting Next.js server...
+[2026-03-27T14:12:24.071Z] Next.js PID: 8245
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:25.099Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:27.099Z] Starting Next.js server...
+[2026-03-27T14:12:27.100Z] Next.js PID: 8287
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:28.099Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:30.098Z] Starting Next.js server...
+[2026-03-27T14:12:30.099Z] Next.js PID: 8326
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:31.143Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:33.142Z] Starting Next.js server...
+[2026-03-27T14:12:33.144Z] Next.js PID: 8365
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:34.158Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:36.157Z] Starting Next.js server...
+[2026-03-27T14:12:36.158Z] Next.js PID: 8404
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:37.177Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:39.176Z] Starting Next.js server...
+[2026-03-27T14:12:39.178Z] Next.js PID: 8444
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:40.186Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:42.185Z] Starting Next.js server...
+[2026-03-27T14:12:42.187Z] Next.js PID: 8483
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:43.312Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:45.311Z] Starting Next.js server...
+[2026-03-27T14:12:45.313Z] Next.js PID: 8552
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:46.301Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:48.301Z] Starting Next.js server...
+[2026-03-27T14:12:48.303Z] Next.js PID: 8606
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:49.278Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:51.277Z] Starting Next.js server...
+[2026-03-27T14:12:51.279Z] Next.js PID: 8660
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:52.296Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:54.296Z] Starting Next.js server...
+[2026-03-27T14:12:54.298Z] Next.js PID: 8714
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:55.326Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:12:57.326Z] Starting Next.js server...
+[2026-03-27T14:12:57.327Z] Next.js PID: 8753
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:12:58.343Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:00.342Z] Starting Next.js server...
+[2026-03-27T14:13:00.344Z] Next.js PID: 8792
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:01.341Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:03.340Z] Starting Next.js server...
+[2026-03-27T14:13:03.342Z] Next.js PID: 8831
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:04.414Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:06.413Z] Starting Next.js server...
+[2026-03-27T14:13:06.415Z] Next.js PID: 8870
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:07.462Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:09.461Z] Starting Next.js server...
+[2026-03-27T14:13:09.463Z] Next.js PID: 8910
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:10.494Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:12.493Z] Starting Next.js server...
+[2026-03-27T14:13:12.495Z] Next.js PID: 8950
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:13.530Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:15.530Z] Starting Next.js server...
+[2026-03-27T14:13:15.531Z] Next.js PID: 8989
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:16.608Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:18.608Z] Starting Next.js server...
+[2026-03-27T14:13:18.609Z] Next.js PID: 9028
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:19.622Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:21.622Z] Starting Next.js server...
+[2026-03-27T14:13:21.623Z] Next.js PID: 9067
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:22.656Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:24.656Z] Starting Next.js server...
+[2026-03-27T14:13:24.657Z] Next.js PID: 9106
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:25.691Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:27.691Z] Starting Next.js server...
+[2026-03-27T14:13:27.692Z] Next.js PID: 9145
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:28.738Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:30.738Z] Starting Next.js server...
+[2026-03-27T14:13:30.739Z] Next.js PID: 9184
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:31.785Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:33.785Z] Starting Next.js server...
+[2026-03-27T14:13:33.786Z] Next.js PID: 9223
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:34.809Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:36.809Z] Starting Next.js server...
+[2026-03-27T14:13:36.810Z] Next.js PID: 9263
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:37.845Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:39.845Z] Starting Next.js server...
+[2026-03-27T14:13:39.846Z] Next.js PID: 9302
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:40.896Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:42.896Z] Starting Next.js server...
+[2026-03-27T14:13:42.897Z] Next.js PID: 9341
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:43.959Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:45.959Z] Starting Next.js server...
+[2026-03-27T14:13:45.960Z] Next.js PID: 9380
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:47.010Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:49.010Z] Starting Next.js server...
+[2026-03-27T14:13:49.011Z] Next.js PID: 9420
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:50.091Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:52.091Z] Starting Next.js server...
+[2026-03-27T14:13:52.092Z] Next.js PID: 9460
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:53.123Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:55.123Z] Starting Next.js server...
+[2026-03-27T14:13:55.124Z] Next.js PID: 9499
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:56.189Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:13:58.189Z] Starting Next.js server...
+[2026-03-27T14:13:58.190Z] Next.js PID: 9539
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:13:59.231Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:01.231Z] Starting Next.js server...
+[2026-03-27T14:14:01.232Z] Next.js PID: 9579
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:02.244Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:04.244Z] Starting Next.js server...
+[2026-03-27T14:14:04.245Z] Next.js PID: 9618
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:05.248Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:07.248Z] Starting Next.js server...
+[2026-03-27T14:14:07.249Z] Next.js PID: 9657
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:08.270Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:10.270Z] Starting Next.js server...
+[2026-03-27T14:14:10.271Z] Next.js PID: 9696
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:11.321Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:13.321Z] Starting Next.js server...
+[2026-03-27T14:14:13.322Z] Next.js PID: 9735
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:14.356Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:16.356Z] Starting Next.js server...
+[2026-03-27T14:14:16.357Z] Next.js PID: 9789
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:17.394Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:19.394Z] Starting Next.js server...
+[2026-03-27T14:14:19.395Z] Next.js PID: 9843
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:20.411Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:22.412Z] Starting Next.js server...
+[2026-03-27T14:14:22.413Z] Next.js PID: 9883
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:23.417Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:25.416Z] Starting Next.js server...
+[2026-03-27T14:14:25.418Z] Next.js PID: 9922
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:26.431Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:28.430Z] Starting Next.js server...
+[2026-03-27T14:14:28.432Z] Next.js PID: 9961
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:29.478Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:31.478Z] Starting Next.js server...
+[2026-03-27T14:14:31.479Z] Next.js PID: 10000
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:32.501Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:34.501Z] Starting Next.js server...
+[2026-03-27T14:14:34.502Z] Next.js PID: 10039
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:35.500Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:37.499Z] Starting Next.js server...
+[2026-03-27T14:14:37.500Z] Next.js PID: 10078
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:38.525Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:40.525Z] Starting Next.js server...
+[2026-03-27T14:14:40.526Z] Next.js PID: 10120
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:41.573Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:43.573Z] Starting Next.js server...
+[2026-03-27T14:14:43.574Z] Next.js PID: 10159
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:44.581Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:46.581Z] Starting Next.js server...
+[2026-03-27T14:14:46.582Z] Next.js PID: 10198
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:47.627Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:49.627Z] Starting Next.js server...
+[2026-03-27T14:14:49.628Z] Next.js PID: 10237
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:50.629Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:52.629Z] Starting Next.js server...
+[2026-03-27T14:14:52.630Z] Next.js PID: 10276
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:53.665Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:55.665Z] Starting Next.js server...
+[2026-03-27T14:14:55.666Z] Next.js PID: 10315
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:56.692Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:14:58.693Z] Starting Next.js server...
+[2026-03-27T14:14:58.694Z] Next.js PID: 10357
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:14:59.737Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:01.737Z] Starting Next.js server...
+[2026-03-27T14:15:01.738Z] Next.js PID: 10396
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:02.748Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:04.748Z] Starting Next.js server...
+[2026-03-27T14:15:04.749Z] Next.js PID: 10435
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:05.785Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:07.784Z] Starting Next.js server...
+[2026-03-27T14:15:07.785Z] Next.js PID: 10474
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:08.803Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:10.803Z] Starting Next.js server...
+[2026-03-27T14:15:10.804Z] Next.js PID: 10514
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:11.843Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:13.843Z] Starting Next.js server...
+[2026-03-27T14:15:13.844Z] Next.js PID: 10553
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:14.872Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:16.872Z] Starting Next.js server...
+[2026-03-27T14:15:16.873Z] Next.js PID: 10592
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:17.874Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:19.874Z] Starting Next.js server...
+[2026-03-27T14:15:19.875Z] Next.js PID: 10633
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:20.888Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:22.888Z] Starting Next.js server...
+[2026-03-27T14:15:22.890Z] Next.js PID: 10672
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:23.882Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:25.882Z] Starting Next.js server...
+[2026-03-27T14:15:25.883Z] Next.js PID: 10711
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:26.931Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:28.930Z] Starting Next.js server...
+[2026-03-27T14:15:28.931Z] Next.js PID: 10750
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:29.995Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:31.995Z] Starting Next.js server...
+[2026-03-27T14:15:31.996Z] Next.js PID: 10789
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:32.994Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:34.994Z] Starting Next.js server...
+[2026-03-27T14:15:34.995Z] Next.js PID: 10828
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:35.999Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:37.999Z] Starting Next.js server...
+[2026-03-27T14:15:38.000Z] Next.js PID: 10867
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:39.031Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:41.031Z] Starting Next.js server...
+[2026-03-27T14:15:41.032Z] Next.js PID: 10907
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:42.050Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:44.050Z] Starting Next.js server...
+[2026-03-27T14:15:44.051Z] Next.js PID: 10946
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:45.087Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:47.087Z] Starting Next.js server...
+[2026-03-27T14:15:47.088Z] Next.js PID: 10985
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:48.147Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:50.147Z] Starting Next.js server...
+[2026-03-27T14:15:50.148Z] Next.js PID: 11024
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:51.181Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:53.181Z] Starting Next.js server...
+[2026-03-27T14:15:53.182Z] Next.js PID: 11063
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:54.197Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:56.197Z] Starting Next.js server...
+[2026-03-27T14:15:56.199Z] Next.js PID: 11102
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:15:57.224Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:15:59.223Z] Starting Next.js server...
+[2026-03-27T14:15:59.225Z] Next.js PID: 11142
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:00.238Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:02.238Z] Starting Next.js server...
+[2026-03-27T14:16:02.239Z] Next.js PID: 11181
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:03.247Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:05.247Z] Starting Next.js server...
+[2026-03-27T14:16:05.248Z] Next.js PID: 11225
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:06.270Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:08.270Z] Starting Next.js server...
+[2026-03-27T14:16:08.272Z] Next.js PID: 11264
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:09.325Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:11.325Z] Starting Next.js server...
+[2026-03-27T14:16:11.327Z] Next.js PID: 11303
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:12.380Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:14.380Z] Starting Next.js server...
+[2026-03-27T14:16:14.381Z] Next.js PID: 11342
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:15.426Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:17.426Z] Starting Next.js server...
+[2026-03-27T14:16:17.427Z] Next.js PID: 11381
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:18.473Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:20.473Z] Starting Next.js server...
+[2026-03-27T14:16:20.474Z] Next.js PID: 11421
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:21.546Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:23.545Z] Starting Next.js server...
+[2026-03-27T14:16:23.546Z] Next.js PID: 11461
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:24.604Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:26.604Z] Starting Next.js server...
+[2026-03-27T14:16:26.605Z] Next.js PID: 11500
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:27.679Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:29.679Z] Starting Next.js server...
+[2026-03-27T14:16:29.680Z] Next.js PID: 11539
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:30.727Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:32.727Z] Starting Next.js server...
+[2026-03-27T14:16:32.728Z] Next.js PID: 11578
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:33.762Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:35.762Z] Starting Next.js server...
+[2026-03-27T14:16:35.763Z] Next.js PID: 11617
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:36.806Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:38.807Z] Starting Next.js server...
+[2026-03-27T14:16:38.808Z] Next.js PID: 11656
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:39.855Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:41.855Z] Starting Next.js server...
+[2026-03-27T14:16:41.856Z] Next.js PID: 11695
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:42.900Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:44.901Z] Starting Next.js server...
+[2026-03-27T14:16:44.902Z] Next.js PID: 11735
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:45.948Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:47.948Z] Starting Next.js server...
+[2026-03-27T14:16:47.949Z] Next.js PID: 11775
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:49.007Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:51.007Z] Starting Next.js server...
+[2026-03-27T14:16:51.008Z] Next.js PID: 11815
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:52.049Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:54.049Z] Starting Next.js server...
+[2026-03-27T14:16:54.050Z] Next.js PID: 11854
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:55.077Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:16:57.077Z] Starting Next.js server...
+[2026-03-27T14:16:57.078Z] Next.js PID: 11893
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:16:58.125Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:00.124Z] Starting Next.js server...
+[2026-03-27T14:17:00.125Z] Next.js PID: 11932
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:01.185Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:03.184Z] Starting Next.js server...
+[2026-03-27T14:17:03.185Z] Next.js PID: 11971
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:04.223Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:06.222Z] Starting Next.js server...
+[2026-03-27T14:17:06.224Z] Next.js PID: 12010
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:07.292Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:09.291Z] Starting Next.js server...
+[2026-03-27T14:17:09.292Z] Next.js PID: 12049
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:10.358Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:12.357Z] Starting Next.js server...
+[2026-03-27T14:17:12.359Z] Next.js PID: 12088
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:13.405Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:15.404Z] Starting Next.js server...
+[2026-03-27T14:17:15.406Z] Next.js PID: 12127
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:16.499Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:18.499Z] Starting Next.js server...
+[2026-03-27T14:17:18.501Z] Next.js PID: 12166
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:19.519Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:21.519Z] Starting Next.js server...
+[2026-03-27T14:17:21.520Z] Next.js PID: 12205
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:22.562Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:24.562Z] Starting Next.js server...
+[2026-03-27T14:17:24.563Z] Next.js PID: 12244
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:25.607Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:27.606Z] Starting Next.js server...
+[2026-03-27T14:17:27.607Z] Next.js PID: 12283
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:28.638Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:30.638Z] Starting Next.js server...
+[2026-03-27T14:17:30.639Z] Next.js PID: 12322
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:31.654Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:33.654Z] Starting Next.js server...
+[2026-03-27T14:17:33.655Z] Next.js PID: 12361
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:34.680Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:36.680Z] Starting Next.js server...
+[2026-03-27T14:17:36.681Z] Next.js PID: 12400
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:37.696Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:39.696Z] Starting Next.js server...
+[2026-03-27T14:17:39.697Z] Next.js PID: 12439
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:40.734Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:42.734Z] Starting Next.js server...
+[2026-03-27T14:17:42.735Z] Next.js PID: 12478
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:43.763Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:45.763Z] Starting Next.js server...
+[2026-03-27T14:17:45.764Z] Next.js PID: 12517
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:46.808Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:48.809Z] Starting Next.js server...
+[2026-03-27T14:17:48.810Z] Next.js PID: 12556
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:49.839Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:51.839Z] Starting Next.js server...
+[2026-03-27T14:17:51.840Z] Next.js PID: 12595
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:52.853Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:54.854Z] Starting Next.js server...
+[2026-03-27T14:17:54.855Z] Next.js PID: 12635
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:55.871Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:17:57.870Z] Starting Next.js server...
+[2026-03-27T14:17:57.872Z] Next.js PID: 12674
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:17:58.901Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:00.901Z] Starting Next.js server...
+[2026-03-27T14:18:00.902Z] Next.js PID: 12713
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:01.907Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:03.908Z] Starting Next.js server...
+[2026-03-27T14:18:03.909Z] Next.js PID: 12752
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:04.950Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:06.950Z] Starting Next.js server...
+[2026-03-27T14:18:06.951Z] Next.js PID: 12797
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:07.965Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:09.965Z] Starting Next.js server...
+[2026-03-27T14:18:09.966Z] Next.js PID: 12837
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:10.976Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:12.976Z] Starting Next.js server...
+[2026-03-27T14:18:12.977Z] Next.js PID: 12876
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:14.030Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:16.030Z] Starting Next.js server...
+[2026-03-27T14:18:16.031Z] Next.js PID: 12920
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:17.119Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:19.119Z] Starting Next.js server...
+[2026-03-27T14:18:19.120Z] Next.js PID: 12960
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:20.146Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:22.146Z] Starting Next.js server...
+[2026-03-27T14:18:22.147Z] Next.js PID: 12999
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:23.187Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:25.187Z] Starting Next.js server...
+[2026-03-27T14:18:25.188Z] Next.js PID: 13038
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:26.211Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:28.211Z] Starting Next.js server...
+[2026-03-27T14:18:28.212Z] Next.js PID: 13083
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:29.207Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:31.207Z] Starting Next.js server...
+[2026-03-27T14:18:31.208Z] Next.js PID: 13122
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:32.234Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:34.234Z] Starting Next.js server...
+[2026-03-27T14:18:34.235Z] Next.js PID: 13161
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:35.276Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:37.276Z] Starting Next.js server...
+[2026-03-27T14:18:37.277Z] Next.js PID: 13200
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:38.296Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:40.296Z] Starting Next.js server...
+[2026-03-27T14:18:40.297Z] Next.js PID: 13239
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:41.324Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:43.324Z] Starting Next.js server...
+[2026-03-27T14:18:43.325Z] Next.js PID: 13278
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:44.353Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:46.353Z] Starting Next.js server...
+[2026-03-27T14:18:46.354Z] Next.js PID: 13317
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:47.393Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:49.393Z] Starting Next.js server...
+[2026-03-27T14:18:49.394Z] Next.js PID: 13356
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:50.405Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:52.405Z] Starting Next.js server...
+[2026-03-27T14:18:52.406Z] Next.js PID: 13395
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:53.506Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:55.506Z] Starting Next.js server...
+[2026-03-27T14:18:55.507Z] Next.js PID: 13437
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:56.514Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:18:58.514Z] Starting Next.js server...
+[2026-03-27T14:18:58.515Z] Next.js PID: 13476
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:18:59.517Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:01.517Z] Starting Next.js server...
+[2026-03-27T14:19:01.518Z] Next.js PID: 13515
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:02.543Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:04.543Z] Starting Next.js server...
+[2026-03-27T14:19:04.544Z] Next.js PID: 13554
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:05.553Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:07.553Z] Starting Next.js server...
+[2026-03-27T14:19:07.554Z] Next.js PID: 13594
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:08.596Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:10.596Z] Starting Next.js server...
+[2026-03-27T14:19:10.597Z] Next.js PID: 13633
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:11.608Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:13.608Z] Starting Next.js server...
+[2026-03-27T14:19:13.609Z] Next.js PID: 13672
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:14.624Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:16.624Z] Starting Next.js server...
+[2026-03-27T14:19:16.625Z] Next.js PID: 13711
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:17.646Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:19.647Z] Starting Next.js server...
+[2026-03-27T14:19:19.648Z] Next.js PID: 13750
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:20.645Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:22.645Z] Starting Next.js server...
+[2026-03-27T14:19:22.646Z] Next.js PID: 13795
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:23.670Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:25.670Z] Starting Next.js server...
+[2026-03-27T14:19:25.671Z] Next.js PID: 13834
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:26.702Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:28.703Z] Starting Next.js server...
+[2026-03-27T14:19:28.704Z] Next.js PID: 13873
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:29.720Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:31.720Z] Starting Next.js server...
+[2026-03-27T14:19:31.721Z] Next.js PID: 13913
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:32.732Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:34.732Z] Starting Next.js server...
+[2026-03-27T14:19:34.733Z] Next.js PID: 13952
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:35.766Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:37.765Z] Starting Next.js server...
+[2026-03-27T14:19:37.766Z] Next.js PID: 13991
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:38.820Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:40.820Z] Starting Next.js server...
+[2026-03-27T14:19:40.821Z] Next.js PID: 14030
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:41.853Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:43.853Z] Starting Next.js server...
+[2026-03-27T14:19:43.854Z] Next.js PID: 14070
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:44.902Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:46.902Z] Starting Next.js server...
+[2026-03-27T14:19:46.903Z] Next.js PID: 14109
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:47.940Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:49.941Z] Starting Next.js server...
+[2026-03-27T14:19:49.942Z] Next.js PID: 14155
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:50.976Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:52.976Z] Starting Next.js server...
+[2026-03-27T14:19:52.977Z] Next.js PID: 14194
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:53.978Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:55.977Z] Starting Next.js server...
+[2026-03-27T14:19:55.978Z] Next.js PID: 14233
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:56.998Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:19:58.997Z] Starting Next.js server...
+[2026-03-27T14:19:58.998Z] Next.js PID: 14272
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:19:59.998Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:01.997Z] Starting Next.js server...
+[2026-03-27T14:20:01.998Z] Next.js PID: 14311
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:02.999Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:04.998Z] Starting Next.js server...
+[2026-03-27T14:20:04.999Z] Next.js PID: 14350
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:06.035Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:08.035Z] Starting Next.js server...
+[2026-03-27T14:20:08.036Z] Next.js PID: 14390
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:09.057Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:11.056Z] Starting Next.js server...
+[2026-03-27T14:20:11.057Z] Next.js PID: 14429
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:12.120Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:14.119Z] Starting Next.js server...
+[2026-03-27T14:20:14.120Z] Next.js PID: 14468
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:15.183Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:17.183Z] Starting Next.js server...
+[2026-03-27T14:20:17.184Z] Next.js PID: 14507
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:18.199Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:20.198Z] Starting Next.js server...
+[2026-03-27T14:20:20.200Z] Next.js PID: 14546
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:21.286Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:23.285Z] Starting Next.js server...
+[2026-03-27T14:20:23.287Z] Next.js PID: 14590
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:24.330Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:26.329Z] Starting Next.js server...
+[2026-03-27T14:20:26.331Z] Next.js PID: 14629
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:27.374Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:29.373Z] Starting Next.js server...
+[2026-03-27T14:20:29.375Z] Next.js PID: 14668
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:30.399Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:32.398Z] Starting Next.js server...
+[2026-03-27T14:20:32.400Z] Next.js PID: 14707
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:33.416Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:35.416Z] Starting Next.js server...
+[2026-03-27T14:20:35.417Z] Next.js PID: 14758
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:36.454Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:38.453Z] Starting Next.js server...
+[2026-03-27T14:20:38.455Z] Next.js PID: 14797
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:39.502Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:41.502Z] Starting Next.js server...
+[2026-03-27T14:20:41.503Z] Next.js PID: 14836
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:42.540Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:44.540Z] Starting Next.js server...
+[2026-03-27T14:20:44.541Z] Next.js PID: 14878
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:45.556Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:47.556Z] Starting Next.js server...
+[2026-03-27T14:20:47.557Z] Next.js PID: 14917
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:48.573Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:50.573Z] Starting Next.js server...
+[2026-03-27T14:20:50.574Z] Next.js PID: 14956
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:51.597Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:53.597Z] Starting Next.js server...
+[2026-03-27T14:20:53.598Z] Next.js PID: 15002
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:54.592Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:56.592Z] Starting Next.js server...
+[2026-03-27T14:20:56.593Z] Next.js PID: 15041
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:20:57.632Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:20:59.632Z] Starting Next.js server...
+[2026-03-27T14:20:59.633Z] Next.js PID: 15080
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:00.621Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:02.621Z] Starting Next.js server...
+[2026-03-27T14:21:02.622Z] Next.js PID: 15119
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:03.630Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:05.630Z] Starting Next.js server...
+[2026-03-27T14:21:05.631Z] Next.js PID: 15164
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:06.652Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:08.652Z] Starting Next.js server...
+[2026-03-27T14:21:08.653Z] Next.js PID: 15203
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:09.651Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:11.651Z] Starting Next.js server...
+[2026-03-27T14:21:11.652Z] Next.js PID: 15242
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:12.696Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:14.696Z] Starting Next.js server...
+[2026-03-27T14:21:14.697Z] Next.js PID: 15281
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:15.723Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:17.723Z] Starting Next.js server...
+[2026-03-27T14:21:17.724Z] Next.js PID: 15320
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:18.758Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:20.758Z] Starting Next.js server...
+[2026-03-27T14:21:20.759Z] Next.js PID: 15361
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:21.793Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:23.793Z] Starting Next.js server...
+[2026-03-27T14:21:23.794Z] Next.js PID: 15400
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:24.817Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:26.817Z] Starting Next.js server...
+[2026-03-27T14:21:26.820Z] Next.js PID: 15444
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:27.888Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:29.889Z] Starting Next.js server...
+[2026-03-27T14:21:29.890Z] Next.js PID: 15483
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:30.918Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:32.918Z] Starting Next.js server...
+[2026-03-27T14:21:32.919Z] Next.js PID: 15522
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:33.928Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:35.928Z] Starting Next.js server...
+[2026-03-27T14:21:35.929Z] Next.js PID: 15561
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:36.953Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:38.954Z] Starting Next.js server...
+[2026-03-27T14:21:38.955Z] Next.js PID: 15601
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:39.982Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:41.983Z] Starting Next.js server...
+[2026-03-27T14:21:41.984Z] Next.js PID: 15640
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:43.008Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:45.008Z] Starting Next.js server...
+[2026-03-27T14:21:45.009Z] Next.js PID: 15680
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:46.029Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:48.029Z] Starting Next.js server...
+[2026-03-27T14:21:48.030Z] Next.js PID: 15720
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:49.073Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:51.073Z] Starting Next.js server...
+[2026-03-27T14:21:51.074Z] Next.js PID: 15760
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:52.105Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:54.105Z] Starting Next.js server...
+[2026-03-27T14:21:54.106Z] Next.js PID: 15799
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:55.105Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:21:57.105Z] Starting Next.js server...
+[2026-03-27T14:21:57.106Z] Next.js PID: 15838
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:21:58.130Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:00.130Z] Starting Next.js server...
+[2026-03-27T14:22:00.131Z] Next.js PID: 15878
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:01.144Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:03.145Z] Starting Next.js server...
+[2026-03-27T14:22:03.146Z] Next.js PID: 15917
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:04.152Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:06.151Z] Starting Next.js server...
+[2026-03-27T14:22:06.152Z] Next.js PID: 15956
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:07.176Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:09.175Z] Starting Next.js server...
+[2026-03-27T14:22:09.176Z] Next.js PID: 15995
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:10.215Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:12.214Z] Starting Next.js server...
+[2026-03-27T14:22:12.216Z] Next.js PID: 16034
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:13.271Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:15.270Z] Starting Next.js server...
+[2026-03-27T14:22:15.272Z] Next.js PID: 16076
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:16.316Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:18.315Z] Starting Next.js server...
+[2026-03-27T14:22:18.317Z] Next.js PID: 16115
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:19.341Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:21.340Z] Starting Next.js server...
+[2026-03-27T14:22:21.342Z] Next.js PID: 16154
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:22.342Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:24.341Z] Starting Next.js server...
+[2026-03-27T14:22:24.343Z] Next.js PID: 16193
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:25.356Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:27.355Z] Starting Next.js server...
+[2026-03-27T14:22:27.357Z] Next.js PID: 16232
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:28.376Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:30.375Z] Starting Next.js server...
+[2026-03-27T14:22:30.377Z] Next.js PID: 16271
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:31.416Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:33.415Z] Starting Next.js server...
+[2026-03-27T14:22:33.417Z] Next.js PID: 16311
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:34.443Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:36.442Z] Starting Next.js server...
+[2026-03-27T14:22:36.444Z] Next.js PID: 16351
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:37.486Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:39.485Z] Starting Next.js server...
+[2026-03-27T14:22:39.487Z] Next.js PID: 16390
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:40.521Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:42.521Z] Starting Next.js server...
+[2026-03-27T14:22:42.522Z] Next.js PID: 16429
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:43.548Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:45.548Z] Starting Next.js server...
+[2026-03-27T14:22:45.549Z] Next.js PID: 16475
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:46.581Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:48.581Z] Starting Next.js server...
+[2026-03-27T14:22:48.582Z] Next.js PID: 16514
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:49.601Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:51.600Z] Starting Next.js server...
+[2026-03-27T14:22:51.602Z] Next.js PID: 16559
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:52.624Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:54.624Z] Starting Next.js server...
+[2026-03-27T14:22:54.625Z] Next.js PID: 16598
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:55.650Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:22:57.650Z] Starting Next.js server...
+[2026-03-27T14:22:57.651Z] Next.js PID: 16644
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:22:58.730Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:00.730Z] Starting Next.js server...
+[2026-03-27T14:23:00.731Z] Next.js PID: 16683
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:01.760Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:03.760Z] Starting Next.js server...
+[2026-03-27T14:23:03.761Z] Next.js PID: 16722
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:04.783Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:06.783Z] Starting Next.js server...
+[2026-03-27T14:23:06.784Z] Next.js PID: 16761
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:07.810Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:09.810Z] Starting Next.js server...
+[2026-03-27T14:23:09.811Z] Next.js PID: 16800
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:10.838Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:12.838Z] Starting Next.js server...
+[2026-03-27T14:23:12.839Z] Next.js PID: 16839
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:13.851Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:15.851Z] Starting Next.js server...
+[2026-03-27T14:23:15.852Z] Next.js PID: 16878
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:16.886Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:18.887Z] Starting Next.js server...
+[2026-03-27T14:23:18.888Z] Next.js PID: 16917
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:19.915Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:21.915Z] Starting Next.js server...
+[2026-03-27T14:23:21.916Z] Next.js PID: 16956
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:22.949Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:24.949Z] Starting Next.js server...
+[2026-03-27T14:23:24.950Z] Next.js PID: 16995
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:25.956Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:27.956Z] Starting Next.js server...
+[2026-03-27T14:23:27.957Z] Next.js PID: 17034
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:28.974Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:30.975Z] Starting Next.js server...
+[2026-03-27T14:23:30.976Z] Next.js PID: 17114
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:32.092Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:34.092Z] Starting Next.js server...
+[2026-03-27T14:23:34.093Z] Next.js PID: 17154
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:35.073Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:37.073Z] Starting Next.js server...
+[2026-03-27T14:23:37.074Z] Next.js PID: 17193
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:38.071Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:40.071Z] Starting Next.js server...
+[2026-03-27T14:23:40.072Z] Next.js PID: 17232
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:41.076Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:43.076Z] Starting Next.js server...
+[2026-03-27T14:23:43.077Z] Next.js PID: 17271
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:44.076Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:46.076Z] Starting Next.js server...
+[2026-03-27T14:23:46.077Z] Next.js PID: 17310
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:47.116Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:49.116Z] Starting Next.js server...
+[2026-03-27T14:23:49.117Z] Next.js PID: 17349
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:50.121Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:52.121Z] Starting Next.js server...
+[2026-03-27T14:23:52.122Z] Next.js PID: 17388
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:53.146Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:55.146Z] Starting Next.js server...
+[2026-03-27T14:23:55.147Z] Next.js PID: 17427
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:56.170Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:23:58.170Z] Starting Next.js server...
+[2026-03-27T14:23:58.171Z] Next.js PID: 17466
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:23:59.188Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:01.188Z] Starting Next.js server...
+[2026-03-27T14:24:01.189Z] Next.js PID: 17505
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:02.231Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:04.231Z] Starting Next.js server...
+[2026-03-27T14:24:04.233Z] Next.js PID: 17544
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:05.263Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:07.263Z] Starting Next.js server...
+[2026-03-27T14:24:07.264Z] Next.js PID: 17583
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:08.300Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:10.300Z] Starting Next.js server...
+[2026-03-27T14:24:10.301Z] Next.js PID: 17622
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:11.330Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:13.329Z] Starting Next.js server...
+[2026-03-27T14:24:13.330Z] Next.js PID: 17661
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:14.371Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:16.371Z] Starting Next.js server...
+[2026-03-27T14:24:16.372Z] Next.js PID: 17700
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:17.414Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:19.414Z] Starting Next.js server...
+[2026-03-27T14:24:19.415Z] Next.js PID: 17739
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:20.559Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:22.559Z] Starting Next.js server...
+[2026-03-27T14:24:22.560Z] Next.js PID: 17832
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:23.664Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:25.664Z] Starting Next.js server...
+[2026-03-27T14:24:25.665Z] Next.js PID: 17881
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:26.688Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:28.689Z] Starting Next.js server...
+[2026-03-27T14:24:28.690Z] Next.js PID: 17932
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:29.718Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:31.718Z] Starting Next.js server...
+[2026-03-27T14:24:31.719Z] Next.js PID: 17972
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:32.783Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:34.784Z] Starting Next.js server...
+[2026-03-27T14:24:34.786Z] Next.js PID: 18027
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[?25h
+[2026-03-27T14:24:36.062Z] Next.js exited (code=1, signal=null), restarting...
+[2026-03-27T14:24:38.061Z] Starting Next.js server...
+[2026-03-27T14:24:38.062Z] Next.js PID: 18079
+▲ Next.js 16.1.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://21.0.15.66:3000
+- Environments: .env
+
+✓ Starting...
+✓ Ready in 920ms
+○ Compiling / ...
+ GET /api/auth/session 200 in 322ms (compile: 298ms, render: 24ms)
+ GET / 200 in 8.9s (compile: 8.4s, render: 488ms)
+prisma:query SELECT `main`.`Session`.`id`, `main`.`Session`.`userId`, `main`.`Session`.`token`, `main`.`Session`.`deviceInfo`, `main`.`Session`.`ipAddress`, `main`.`Session`.`userAgent`, `main`.`Session`.`isActive`, `main`.`Session`.`lastActivityAt`, `main`.`Session`.`expiresAt`, `main`.`Session`.`createdAt` FROM `main`.`Session` WHERE (`main`.`Session`.`token` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`namaLengkap`, `main`.`User`.`username`, `main`.`User`.`email`, `main`.`User`.`role`, `main`.`User`.`status`, `main`.`User`.`desaId` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?
+prisma:query UPDATE `main`.`Session` SET `lastActivityAt` = ? WHERE (`main`.`Session`.`id` = ? AND 1=1) RETURNING `id` AS `id`, `userId` AS `userId`, `token` AS `token`, `deviceInfo` AS `deviceInfo`, `ipAddress` AS `ipAddress`, `userAgent` AS `userAgent`, `isActive` AS `isActive`, `lastActivityAt` AS `lastActivityAt`, `expiresAt` AS `expiresAt`, `createdAt` AS `createdAt`
+ GET /api/auth/session 200 in 29ms (compile: 10ms, render: 18ms)
+ GET /api/dashboard/statistik 200 in 142ms (compile: 135ms, render: 7ms)
+prisma:query SELECT `main`.`Desa`.`id`, `main`.`Desa`.`namaDesa`, `main`.`Desa`.`kodeDesa`, `main`.`Desa`.`kodePos`, `main`.`Desa`.`kecamatan`, `main`.`Desa`.`kabupaten`, `main`.`Desa`.`provinsi`, `main`.`Desa`.`negara`, `main`.`Desa`.`alamatKantor`, `main`.`Desa`.`telepon`, `main`.`Desa`.`email`, `main`.`Desa`.`website`, `main`.`Desa`.`logo`, `main`.`Desa`.`logoKabupaten`, `main`.`Desa`.`logoProvinsi`, `main`.`Desa`.`visi`, `main`.`Desa`.`misi`, `main`.`Desa`.`luasWilayah`, `main`.`Desa`.`ketinggian`, `main`.`Desa`.`curahHujan`, `main`.`Desa`.`batasUtara`, `main`.`Desa`.`batasSelatan`, `main`.`Desa`.`batasTimur`, `main`.`Desa`.`batasBarat`, `main`.`Desa`.`tanggalBerdiri`, `main`.`Desa`.`hariJadi`, `main`.`Desa`.`sejarahSingkat`, `main`.`Desa`.`createdAt`, `main`.`Desa`.`updatedAt` FROM `main`.`Desa` WHERE 1=1 LIMIT ? OFFSET ?
+ GET /api/desa 200 in 102ms (compile: 93ms, render: 9ms)
+ GET /api/auth/session 200 in 7ms (compile: 3ms, render: 5ms)
+ GET / 200 in 58ms (compile: 14ms, render: 44ms)
+prisma:query SELECT `main`.`Session`.`id`, `main`.`Session`.`userId`, `main`.`Session`.`token`, `main`.`Session`.`deviceInfo`, `main`.`Session`.`ipAddress`, `main`.`Session`.`userAgent`, `main`.`Session`.`isActive`, `main`.`Session`.`lastActivityAt`, `main`.`Session`.`expiresAt`, `main`.`Session`.`createdAt` FROM `main`.`Session` WHERE (`main`.`Session`.`token` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`namaLengkap`, `main`.`User`.`username`, `main`.`User`.`email`, `main`.`User`.`role`, `main`.`User`.`status`, `main`.`User`.`desaId` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?
+prisma:query UPDATE `main`.`Session` SET `lastActivityAt` = ? WHERE (`main`.`Session`.`id` = ? AND 1=1) RETURNING `id` AS `id`, `userId` AS `userId`, `token` AS `token`, `deviceInfo` AS `deviceInfo`, `ipAddress` AS `ipAddress`, `userAgent` AS `userAgent`, `isActive` AS `isActive`, `lastActivityAt` AS `lastActivityAt`, `expiresAt` AS `expiresAt`, `createdAt` AS `createdAt`
+ GET /api/auth/session 200 in 10ms (compile: 1814µs, render: 9ms)
+ GET /api/dashboard/statistik 200 in 6ms (compile: 2ms, render: 4ms)
+prisma:query SELECT `main`.`Desa`.`id`, `main`.`Desa`.`namaDesa`, `main`.`Desa`.`kodeDesa`, `main`.`Desa`.`kodePos`, `main`.`Desa`.`kecamatan`, `main`.`Desa`.`kabupaten`, `main`.`Desa`.`provinsi`, `main`.`Desa`.`negara`, `main`.`Desa`.`alamatKantor`, `main`.`Desa`.`telepon`, `main`.`Desa`.`email`, `main`.`Desa`.`website`, `main`.`Desa`.`logo`, `main`.`Desa`.`logoKabupaten`, `main`.`Desa`.`logoProvinsi`, `main`.`Desa`.`visi`, `main`.`Desa`.`misi`, `main`.`Desa`.`luasWilayah`, `main`.`Desa`.`ketinggian`, `main`.`Desa`.`curahHujan`, `main`.`Desa`.`batasUtara`, `main`.`Desa`.`batasSelatan`, `main`.`Desa`.`batasTimur`, `main`.`Desa`.`batasBarat`, `main`.`Desa`.`tanggalBerdiri`, `main`.`Desa`.`hariJadi`, `main`.`Desa`.`sejarahSingkat`, `main`.`Desa`.`createdAt`, `main`.`Desa`.`updatedAt` FROM `main`.`Desa` WHERE 1=1 LIMIT ? OFFSET ?
+ GET /api/desa 200 in 6ms (compile: 1696µs, render: 4ms)
+ GET /api/auth/session 200 in 4ms (compile: 1151µs, render: 3ms)
+ GET /api/auth/session 200 in 6ms (compile: 2ms, render: 4ms)
+ GET /api/auth/session 200 in 7ms (compile: 3ms, render: 4ms)
+ GET /api/auth/session 200 in 7ms (compile: 3ms, render: 4ms)
+ GET / 200 in 51ms (compile: 16ms, render: 36ms)
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Session`.`id`, `main`.`Session`.`userId`, `main`.`Session`.`token`, `main`.`Session`.`deviceInfo`, `main`.`Session`.`ipAddress`, `main`.`Session`.`userAgent`, `main`.`Session`.`isActive`, `main`.`Session`.`lastActivityAt`, `main`.`Session`.`expiresAt`, `main`.`Session`.`createdAt` FROM `main`.`Session` WHERE (`main`.`Session`.`token` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`namaLengkap`, `main`.`User`.`username`, `main`.`User`.`email`, `main`.`User`.`role`, `main`.`User`.`status`, `main`.`User`.`desaId` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?
+prisma:query UPDATE `main`.`Session` SET `lastActivityAt` = ? WHERE (`main`.`Session`.`id` = ? AND 1=1) RETURNING `id` AS `id`, `userId` AS `userId`, `token` AS `token`, `deviceInfo` AS `deviceInfo`, `ipAddress` AS `ipAddress`, `userAgent` AS `userAgent`, `isActive` AS `isActive`, `lastActivityAt` AS `lastActivityAt`, `expiresAt` AS `expiresAt`, `createdAt` AS `createdAt`
+ GET /api/auth/session 200 in 8ms (compile: 1783µs, render: 6ms)
+ GET /api/dashboard/statistik 200 in 4ms (compile: 1208µs, render: 2ms)
+prisma:query SELECT `main`.`Desa`.`id`, `main`.`Desa`.`namaDesa`, `main`.`Desa`.`kodeDesa`, `main`.`Desa`.`kodePos`, `main`.`Desa`.`kecamatan`, `main`.`Desa`.`kabupaten`, `main`.`Desa`.`provinsi`, `main`.`Desa`.`negara`, `main`.`Desa`.`alamatKantor`, `main`.`Desa`.`telepon`, `main`.`Desa`.`email`, `main`.`Desa`.`website`, `main`.`Desa`.`logo`, `main`.`Desa`.`logoKabupaten`, `main`.`Desa`.`logoProvinsi`, `main`.`Desa`.`visi`, `main`.`Desa`.`misi`, `main`.`Desa`.`luasWilayah`, `main`.`Desa`.`ketinggian`, `main`.`Desa`.`curahHujan`, `main`.`Desa`.`batasUtara`, `main`.`Desa`.`batasSelatan`, `main`.`Desa`.`batasTimur`, `main`.`Desa`.`batasBarat`, `main`.`Desa`.`tanggalBerdiri`, `main`.`Desa`.`hariJadi`, `main`.`Desa`.`sejarahSingkat`, `main`.`Desa`.`createdAt`, `main`.`Desa`.`updatedAt` FROM `main`.`Desa` WHERE 1=1 LIMIT ? OFFSET ?
+ GET /api/desa 200 in 6ms (compile: 1291µs, render: 4ms)
+ GET /api/auth/session 200 in 6ms (compile: 3ms, render: 3ms)
+ GET /api/auth/session 200 in 4ms (compile: 1795µs, render: 2ms)
+ GET /api/auth/session 200 in 5ms (compile: 1758µs, render: 3ms)
+ GET /api/auth/session 200 in 5ms (compile: 2ms, render: 3ms)

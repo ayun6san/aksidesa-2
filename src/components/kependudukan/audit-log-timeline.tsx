@@ -106,7 +106,7 @@ export function AuditLogTimeline({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expandedLog, setExpandedLog] = useState<string | null>(null);
-  const [filterAksi, setFilterAksi] = useState<string>('');
+  const [filterAksi, setFilterAksi] = useState<string>('ALL');
 
   // Fetch logs
   useEffect(() => {
@@ -119,7 +119,7 @@ export function AuditLogTimeline({
         if (pendudukId) params.append('pendudukId', pendudukId);
         if (kkId) params.append('kkId', kkId);
         params.append('limit', limit.toString());
-        if (filterAksi) params.append('aksi', filterAksi);
+        if (filterAksi && filterAksi !== 'ALL') params.append('aksi', filterAksi);
 
         const response = await fetch(`/api/audit-log?${params.toString()}`);
         const result = await response.json();
@@ -296,7 +296,7 @@ export function AuditLogTimeline({
                 <SelectValue placeholder="Filter aksi" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Semua</SelectItem>
+                <SelectItem value="ALL">Semua</SelectItem>
                 <SelectItem value="CREATE">Dibuat</SelectItem>
                 <SelectItem value="UPDATE">Diperbarui</SelectItem>
                 <SelectItem value="DELETE">Dihapus</SelectItem>

@@ -6,8 +6,8 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:../db/custom.db"
+  provider = "mysql"
+  url      = env("DATABASE_URL")
 }
 
 // User roles

@@ -202,9 +202,10 @@ export function PeristiwaKependudukan() {
   });
 
   // Fetch wilayah options
-  const fetchWilayah = useCallback(async () => {
+  const fetchWilayah = useCallback(async (retries = 3) => {
     try {
       const response = await fetch('/api/wilayah');
+      if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
       if (data.success) {
         const combinedOptions: WilayahOption[] = [];
@@ -224,13 +225,18 @@ export function PeristiwaKependudukan() {
       }
     } catch (error) {
       console.error('Error fetching wilayah:', error);
+      // Retry with exponential backoff
+      if (retries > 0) {
+        setTimeout(() => fetchWilayah(retries - 1), 1000);
+      }
     }
   }, []);
 
   // Fetch KK options
-  const fetchKK = useCallback(async () => {
+  const fetchKK = useCallback(async (retries = 3) => {
     try {
       const response = await fetch('/api/kependudukan/kk?limit=1000');
+      if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
       if (data.success) {
         setKKOptions(data.data.map((kk: any) => ({
@@ -242,6 +248,10 @@ export function PeristiwaKependudukan() {
       }
     } catch (error) {
       console.error('Error fetching KK:', error);
+      // Retry with exponential backoff
+      if (retries > 0) {
+        setTimeout(() => fetchKK(retries - 1), 1000);
+      }
     }
   }, []);
 

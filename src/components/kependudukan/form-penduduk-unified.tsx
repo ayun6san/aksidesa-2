@@ -1587,14 +1587,14 @@ export function FormPendudukUnified({
   // ==================== RENDER HEADER INFO ====================
   const renderHeaderInfo = () => {
     if (mode === 'edit' && editingPenduduk) {
-      // Priority: kkInfo (from KK detail page) > kkOptions > editingPenduduk.nomorKK
+      // Priority: kkInfo (from KK detail page) > kkOptions > editingPenduduk
       const currentKK = kkOptions.find(kk => kk.id === formData.kkId);
       const nomorKK = kkInfo?.nomorKK || currentKK?.nomorKK || editingPenduduk.nomorKK;
-      const kepalaKeluarga = kkInfo?.kepalaKeluarga || currentKK?.kepalaKeluarga;
-      const alamatKK = kkInfo?.alamat || currentKK?.alamat;
-      const rtKK = kkInfo?.rt || currentKK?.rt;
-      const rwKK = kkInfo?.rw || currentKK?.rw;
-      const dusunKK = kkInfo?.dusun || currentKK?.dusun;
+      const kepalaKeluarga = kkInfo?.kepalaKeluarga || currentKK?.kepalaKeluarga || editingPenduduk.kepalaKeluarga;
+      const alamatKK = kkInfo?.alamat || currentKK?.alamat || editingPenduduk.alamat;
+      const rtKK = kkInfo?.rt || currentKK?.rt || editingPenduduk.rt;
+      const rwKK = kkInfo?.rw || currentKK?.rw || editingPenduduk.rw;
+      const dusunKK = kkInfo?.dusun || currentKK?.dusun || editingPenduduk.dusun;
       const jumlahAnggota = kkInfo?.jumlahAnggota || currentKK?.jumlahAnggota;
       const hasKK = !!(formData.kkId && nomorKK && nomorKK !== '-');
       

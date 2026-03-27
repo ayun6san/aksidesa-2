@@ -50,6 +50,10 @@ export async function GET(request: NextRequest) {
         include: {
           kk: {
             include: {
+              anggota: {
+                where: { hubunganKeluarga: 'KEPALA_KELUARGA' },
+                select: { namaLengkap: true }
+              },
               rt: {
                 include: {
                   rw: {
@@ -114,6 +118,7 @@ export async function GET(request: NextRequest) {
       dusun: p.kk?.dusun?.nama || p.kk?.rt?.rw?.dusun?.nama || '-',
       kkId: p.kkId,
       nomorKK: p.kk?.nomorKK || '-',
+      kepalaKeluarga: p.kk?.anggota?.[0]?.namaLengkap || '-',
       hubunganKeluarga: p.hubunganKeluarga,
       urutanDalamKK: p.urutanDalamKK,
       email: p.email,

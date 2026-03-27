@@ -1118,7 +1118,7 @@ export function FormPendudukUnified({
 
           {/* Layout 2 Kolom: Foto Kiri - Form Kanan */}
           <div className="flex gap-6">
-            {/* Kolom Kiri: Foto Pas 4x6 */}
+            {/* Kolom Kiri: Foto Penduduk */}
             <div className="flex flex-col items-center">
               <input ref={fotoInputRef} type="file" accept="image/*" onChange={(e) => handleFileUpload(e, 'foto')} className="hidden" />
               {formData.foto ? (
@@ -1135,7 +1135,7 @@ export function FormPendudukUnified({
                   </div>
                   <Upload className="w-5 h-5 text-gray-400" />
                   <span className="text-xs text-gray-500 mt-1">Upload Foto</span>
-                  <span className="text-[10px] text-gray-400">4x6 cm</span>
+
                 </div>
               )}
             </div>
@@ -1223,10 +1223,7 @@ export function FormPendudukUnified({
             <div className="grid grid-cols-12 gap-2">
               <div className="col-span-4 space-y-1">
                 <Label className="text-xs text-gray-600">Pekerjaan</Label>
-                <Select value={formData.pekerjaan} onValueChange={(v) => handleInputChange('pekerjaan', v)}>
-                  <SelectTrigger className="h-9"><SelectValue placeholder="Pilih" /></SelectTrigger>
-                  <SelectContent>{pekerjaanOptions.map(p => (<SelectItem key={p} value={p}>{p}</SelectItem>))}</SelectContent>
-                </Select>
+                <Input value={formData.pekerjaan} onChange={(e) => handleInputChange('pekerjaan', e.target.value)} placeholder="Masukkan pekerjaan" className="h-9" />
               </div>
               <div className="col-span-4 space-y-1">
                 <Label className="text-xs text-gray-600">Pendidikan Terakhir</Label>
@@ -1553,11 +1550,21 @@ export function FormPendudukUnified({
                       )}
                     </div>
                     {(alamatKK || dusunKK) && (
-                      <div className="flex items-center gap-1 text-[11px] text-white/80 mt-1">
+                      <div className="flex items-center gap-1.5 text-[11px] text-white/80 mt-1">
                         <MapPin className="w-3 h-3 flex-shrink-0" />
-                        <span className="whitespace-nowrap">
-                          {alamatKK}{dusunKK ? `, ${dusunKK}` : ''}{rtKK && rwKK ? ` RT ${rtKK}/RW ${rwKK}` : ''}
-                        </span>
+                        <span className="whitespace-nowrap">{alamatKK}</span>
+                        {rtKK && rwKK && (
+                          <>
+                            <span className="text-white/50">•</span>
+                            <span className="bg-white/20 px-1.5 py-0.5 rounded text-[10px]">RT {rtKK}/RW {rwKK}</span>
+                          </>
+                        )}
+                        {dusunKK && (
+                          <>
+                            <span className="text-white/50">•</span>
+                            <span className="bg-white/20 px-1.5 py-0.5 rounded text-[10px]">{dusunKK}</span>
+                          </>
+                        )}
                       </div>
                     )}
                   </>

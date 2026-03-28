@@ -24,6 +24,7 @@ import {
   UserCheck,
   Calendar,
   BarChart3,
+  Landmark,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -71,6 +72,7 @@ const menuItems: MenuItem[] = [
       { id: 'master-data', label: 'Master Data', icon: Database },
       { id: 'user', label: 'User / Pengguna', icon: UserCog },
       { id: 'pengaturan-desa', label: 'Pengaturan Desa', icon: Building2 },
+      { id: 'lembaga-desa', label: 'Lembaga Desa', icon: Landmark },
       { id: 'pengaturan-aplikasi', label: 'Pengaturan Aplikasi', icon: Settings },
     ]
   },

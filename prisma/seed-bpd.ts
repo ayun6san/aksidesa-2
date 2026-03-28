@@ -1,0 +1,198 @@
+import { PrismaClient, JenisKelamin, Agama } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+async function main() {
+  // Data BPD
+  const bpdData = [
+    {
+      namaLengkap: 'H. Engkus Koswara, S.Pd',
+      tempatLahir: 'Ciamis',
+      tanggalLahir: new Date('1965-03-10'),
+      jenisKelamin: JenisKelamin.LAKI_LAKI,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'S1',
+      pekerjaan: 'Guru (Pensiunan)',
+      jabatan: 'Ketua',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '160/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 1 RT 01 RW 01',
+      rt: '001',
+      rw: '001',
+      dusun: 'Dusun 1',
+      noHp: '081345678901',
+      email: 'ketuabpd@example.com',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Drs. Aan Supriadi',
+      tempatLahir: 'Tasikmalaya',
+      tanggalLahir: new Date('1970-07-20'),
+      jenisKelamin: JenisKelamin.LAKI_LAKI,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'S1',
+      pekerjaan: 'PNS',
+      jabatan: 'Wakil Ketua',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '161/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 2 RT 02 RW 02',
+      rt: '002',
+      rw: '002',
+      dusun: 'Dusun 2',
+      noHp: '081345678902',
+      email: 'wakilbpd@example.com',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Iis Siti Aminah, S.E',
+      tempatLahir: 'Bandung',
+      tanggalLahir: new Date('1975-11-05'),
+      jenisKelamin: JenisKelamin.PEREMPUAN,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'S1',
+      pekerjaan: 'Wiraswasta',
+      jabatan: 'Sekretaris',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '162/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 1 RT 03 RW 01',
+      rt: '003',
+      rw: '001',
+      dusun: 'Dusun 1',
+      noHp: '081345678903',
+      email: 'sekbpd@example.com',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Yayah Nurjanah',
+      tempatLahir: 'Ciamis',
+      tanggalLahir: new Date('1980-02-15'),
+      jenisKelamin: JenisKelamin.PEREMPUAN,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'SMA',
+      pekerjaan: 'Ibu Rumah Tangga',
+      jabatan: 'Bendahara',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '163/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 2 RT 01 RW 02',
+      rt: '001',
+      rw: '002',
+      dusun: 'Dusun 2',
+      noHp: '081345678904',
+      email: 'bendahara@example.com',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Eep Suparman',
+      tempatLahir: 'Garut',
+      tanggalLahir: new Date('1968-06-25'),
+      jenisKelamin: JenisKelamin.LAKI_LAKI,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'SMA',
+      pekerjaan: 'Petani',
+      jabatan: 'Anggota',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '164/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 1 RT 02 RW 01',
+      rt: '002',
+      rw: '001',
+      dusun: 'Dusun 1',
+      noHp: '081345678905',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Ade Kurnia, S.Pd',
+      tempatLahir: 'Tasikmalaya',
+      tanggalLahir: new Date('1982-09-12'),
+      jenisKelamin: JenisKelamin.LAKI_LAKI,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'S1',
+      pekerjaan: 'Guru',
+      jabatan: 'Anggota',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '165/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 3 RT 01 RW 03',
+      rt: '001',
+      rw: '003',
+      dusun: 'Dusun 3',
+      noHp: '081345678906',
+      email: 'adekurnia@example.com',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Nana Suryana',
+      tempatLahir: 'Ciamis',
+      tanggalLahir: new Date('1972-12-08'),
+      jenisKelamin: JenisKelamin.LAKI_LAKI,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'SMA',
+      pekerjaan: 'Pedagang',
+      jabatan: 'Anggota',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '166/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 2 RT 03 RW 02',
+      rt: '003',
+      rw: '002',
+      dusun: 'Dusun 2',
+      noHp: '081345678907',
+      isActive: true,
+    },
+    {
+      namaLengkap: 'Hj. Tati Sumiati',
+      tempatLahir: 'Bandung',
+      tanggalLahir: new Date('1974-04-18'),
+      jenisKelamin: JenisKelamin.PEREMPUAN,
+      agama: Agama.ISLAM,
+      pendidikanTerakhir: 'SMA',
+      pekerjaan: 'Ibu Rumah Tangga',
+      jabatan: 'Anggota',
+      periodeMulai: new Date('2021-04-01'),
+      periodeSelesai: new Date('2027-04-01'),
+      skPengangkatan: '167/BPD/2021',
+      tanggalSk: new Date('2021-04-15'),
+      alamat: 'Dusun 1 RT 01 RW 01',
+      rt: '001',
+      rw: '001',
+      dusun: 'Dusun 1',
+      noHp: '081345678908',
+      isActive: true,
+    },
+  ];
+
+  // Clear existing data
+  await prisma.bPD.deleteMany({});
+
+  // Insert data with urutan
+  for (let i = 0; i < bpdData.length; i++) {
+    await prisma.bPD.create({
+      data: {
+        ...bpdData[i],
+        urutan: i + 1,
+      },
+    });
+  }
+
+  console.log(`✅ Berhasil menambahkan ${bpdData.length} data BPD`);
+}
+
+main()
+  .catch((e) => {
+    console.error(e);
+    process.exit(1);
+  })
+  .finally(async () => {
+    await prisma.$disconnect();
+  });

@@ -580,3 +580,108 @@ model MonitoringData {
   
   @@unique([bulan, tahun])
 }
+
+// ==================== LEMBAGA DESA ====================
+
+// Jenis Jabatan Perangkat Desa
+enum JenisJabatan {
+  KEPALA_DESA
+  SEKRETARIS_DESA
+  KAUR_TATA_USAHA
+  KAUR_KEUANGAN
+  KAUR_PERENCANAAN
+  KASI_PEMERINTAHAN
+  KASI_KERAHAYAAN
+  KASI_PELAYANAN
+  KEPALA_DUSUN
+  LAINNYA
+}
+
+// Perangkat Desa
+model PerangkatDesa {
+  id                String            @id @default(cuid())
+  
+  // Identitas
+  nip               String?           // NIP untuk PNS
+  nipd              String?           // NIPD untuk non-PNS
+  namaLengkap       String
+  tempatLahir       String?
+  tanggalLahir      DateTime?
+  jenisKelamin      JenisKelamin
+  agama             Agama             @default(ISLAM)
+  pendidikanTerakhir String?
+  
+  // Jabatan
+  jabatan           JenisJabatan
+  jabatanLainnya    String?           // Diisi jika jabatan = LAINNYA
+  masaJabatanMulai  DateTime?
+  masaJabatanSelesai DateTime?
+  skPengangkatan    String?           // Nomor SK Pengangkatan
+  tanggalSk         DateTime?
+  
+  // Kontak
+  alamat            String?
+  noHp              String?
+  email             String?
+  
+  // Foto
+  foto              String?
+  
+  // Urutan tampilan
+  urutan            Int               @default(0)
+  
+  // Status
+  isActive          Boolean           @default(true)
+  
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  
+  @@index([namaLengkap])
+  @@index([jabatan])
+}
+
+// BPD (Badan Permusyawaratan Desa)
+model BPD {
+  id                String            @id @default(cuid())
+  
+  // Identitas
+  namaLengkap       String
+  tempatLahir       String?
+  tanggalLahir      DateTime?
+  jenisKelamin      JenisKelamin
+  agama             Agama             @default(ISLAM)
+  pendidikanTerakhir String?
+  pekerjaan         String?
+  
+  // Jabatan di BPD
+  jabatan           String            // Ketua, Wakil Ketua, Sekretaris, Anggota
+  periodeMulai      DateTime?
+  periodeSelesai    DateTime?
+  skPengangkatan    String?
+  tanggalSk         DateTime?
+  
+  // Alamat
+  alamat            String?
+  rt                String?
+  rw                String?
+  dusun             String?
+  
+  // Kontak
+  noHp              String?
+  email             String?
+  
+  // Foto
+  foto              String?
+  
+  // Urutan tampilan
+  urutan            Int               @default(0)
+  
+  // Status
+  isActive          Boolean           @default(true)
+  
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  
+  @@index([namaLengkap])
+  @@index([jabatan])
+}

@@ -8,6 +8,7 @@ import { DashboardContent } from './dashboard-content';
 import { UserManagement } from './user-management';
 import { WilayahManagement } from './wilayah-management';
 import { PengaturanDesa } from './pengaturan-desa';
+import { LembagaDesa } from './lembaga-desa';
 import { DataKK } from '@/components/kependudukan/data-kk';
 import { DataPenduduk } from '@/components/kependudukan/data-penduduk';
 import { PendatangSementara } from '@/components/kependudukan/pendatang-sementara';
@@ -236,6 +237,9 @@ export function DashboardLayout({ user, onLogout }: DashboardLayoutProps) {
       
       case 'pengaturan-desa':
         return <PengaturanDesa />;
+      
+      case 'lembaga-desa':
+        return <LembagaDesa />;
       
       case 'pengaturan-aplikasi':
         return (

@@ -47,5 +47,14 @@ test
 prompt
 
 server.log
+
+# database files
+db/*.db
+db/*.db-journal
+
+# log files
+.zscripts/*.log
+*.log
+
 # Skills directory
 /skills/aksidesa-2/

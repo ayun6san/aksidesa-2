@@ -607,9 +607,9 @@ export function PengaturanDesa() {
                       )}
                     </div>
                     <div className="flex-1 text-center">
-                      <p className="text-sm font-medium text-gray-700 uppercase tracking-wide">PEMERINTAH {data.kabupaten?.toUpperCase() || 'KABUPATEN'}</p>
-                      <p className="text-sm font-medium text-gray-700 uppercase tracking-wide">KECAMATAN {data.kecamatan?.toUpperCase() || 'KECAMATAN'}</p>
-                      <h3 className="text-lg font-bold text-gray-900 uppercase tracking-wide mt-1">KANTOR DESA {data.namaDesa?.toUpperCase() || 'DESA'}</h3>
+                      <p className="text-sm font-medium text-gray-700 uppercase tracking-wide">PEMERINTAH KABUPATEN {data.kabupaten?.toUpperCase() || 'CIANJUR'}</p>
+                      <p className="text-sm font-medium text-gray-700 uppercase tracking-wide">KECAMATAN {data.kecamatan?.toUpperCase() || 'BOJONGPICUNG'}</p>
+                      <h3 className="text-lg font-bold text-gray-900 uppercase tracking-wide mt-1">DESA {data.namaDesa?.toUpperCase() || 'BOJONGPICUNG'}</h3>
                       <p className="text-xs text-gray-600 mt-1">{data.alamatKantor || 'Alamat Kantor Desa'}</p>
                       {(data.telepon || data.email || data.website) && (
                         <p className="text-xs text-gray-600 mt-0.5">

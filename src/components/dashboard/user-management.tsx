@@ -84,7 +84,6 @@ interface UserFormData {
   status: string;
   faceRecognitionEnabled: boolean;
   rfidEnabled: boolean;
-  resetCode: string;
 }
 
 const initialFormData: UserFormData = {
@@ -98,7 +97,6 @@ const initialFormData: UserFormData = {
   status: 'ACTIVE',
   faceRecognitionEnabled: false,
   rfidEnabled: false,
-  resetCode: '',
 };
 
 const roleOptions = [
@@ -198,7 +196,6 @@ export function UserManagement() {
       status: user.status,
       faceRecognitionEnabled: user.faceRecognitionEnabled,
       rfidEnabled: user.rfidEnabled,
-      resetCode: '',
     });
     setShowForm(true);
   };
@@ -274,9 +271,7 @@ export function UserManagement() {
         body.password = formData.password;
       }
 
-      if (formData.resetCode) {
-        body.resetCode = formData.resetCode;
-      }
+
 
       const response = await fetch(url, {
         method,
@@ -1098,24 +1093,6 @@ export function UserManagement() {
                   Status Super Admin tidak dapat diubah
                 </p>
               )}
-            </div>
-
-            {/* Reset Code */}
-            <div className="space-y-2">
-              <Label htmlFor="resetCode">Reset Code (PIN 4-6 digit)</Label>
-              <Input
-                id="resetCode"
-                type="password"
-                value={formData.resetCode}
-                onChange={(e) =>
-                  setFormData({ ...formData, resetCode: e.target.value })
-                }
-                placeholder="Masukkan PIN untuk takeover akun"
-                maxLength={6}
-              />
-              <p className="text-xs text-gray-500">
-                PIN digunakan untuk mengambil alih akun saat login di device lain
-              </p>
             </div>
 
             {/* Feature Toggles */}

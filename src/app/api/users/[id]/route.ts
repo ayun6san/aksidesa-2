@@ -76,7 +76,6 @@ export async function PUT(
       faceRecognitionEnabled,
       rfidEnabled,
       password,
-      resetCode,
     } = body;
 
     // Cek user exists
@@ -126,11 +125,6 @@ export async function PUT(
     // Hash password baru jika ada
     if (password && password.length >= 6) {
       updateData.password = await hash(password, 10);
-    }
-    
-    // Hash reset code baru jika ada
-    if (resetCode !== undefined) {
-      updateData.resetCode = resetCode ? await hash(resetCode, 10) : null;
     }
 
     // Update user

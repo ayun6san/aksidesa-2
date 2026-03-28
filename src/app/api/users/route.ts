@@ -124,7 +124,6 @@ export async function POST(request: NextRequest) {
       status,
       faceRecognitionEnabled,
       rfidEnabled,
-      resetCode,
     } = body;
 
     // Validasi field wajib
@@ -167,12 +166,6 @@ export async function POST(request: NextRequest) {
 
     // Hash password
     const hashedPassword = await hash(password, 10);
-    
-    // Hash reset code jika ada
-    let hashedResetCode: string | null = null;
-    if (resetCode) {
-      hashedResetCode = await hash(resetCode, 10);
-    }
 
     // Buat user baru
     const user = await db.user.create({
@@ -186,7 +179,6 @@ export async function POST(request: NextRequest) {
         status: (status || 'ACTIVE') as UserStatus,
         faceRecognitionEnabled: faceRecognitionEnabled || false,
         rfidEnabled: rfidEnabled || false,
-        resetCode: hashedResetCode,
       },
       select: {
         id: true,
